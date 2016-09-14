@@ -1,0 +1,46 @@
+event BonusHealth
+{
+	Animate	PlayerStatusHealthValue 	  			FgColor		"Buff"				Accel 0.0 0.0
+   	Animate	PlayerStatusHealthValueShadow			FgColor		"HealthShadow"		Accel 0.0 0.0
+   	
+	Animate	PlayerStatusHealthValueMinmode 	    	FgColor		"Buff"				Accel 0.0 0.0
+   	Animate	PlayerStatusHealthValueShadowMinmode	FgColor		"HealthShadow"	 	Accel 0.0 0.0
+}
+event LowHealth
+{
+	Animate	PlayerStatusHealthValue 	  			FgColor		"Hurt"				Accel 0.0 0.0
+   	Animate	PlayerStatusHealthValueShadow			FgColor		"HealthShadow"		Accel 0.0 0.0
+   	
+	Animate	PlayerStatusHealthValueMinmode 	    	FgColor		"Hurt"				Accel 0.0 0.0
+   	Animate	PlayerStatusHealthValueShadowMinmode	FgColor		"HealthShadow"	   	Accel 0.0 0.0
+}
+event ClearHealth
+{
+	Animate	PlayerStatusHealthValue 	  			FgColor		"WhiteSolid"		Accel 0.0 0.0
+   	Animate	PlayerStatusHealthValueShadow			FgColor		"HealthShadow"		Accel 0.0 0.0
+   	
+	Animate	PlayerStatusHealthValueMinmode 	    	FgColor		"WhiteSolid"		Accel 0.0 0.0
+   	Animate	PlayerStatusHealthValueShadowMinmode	FgColor		"HealthShadow"	   	Accel 0.0 0.0
+}
+event LowAmmo
+{	
+	Animate AmmoInClip								FgColor		"LowAmmo"			Accel 0.0 0.0
+	Animate AmmoInClipShadow						FgColor		"AmmoShadow"		Accel 0.0 0.0
+	
+	Animate AmmoInReserve							FgColor		"LowAmmo"			Accel 0.0 0.0
+	Animate AmmoInReserveShadow						FgColor		"AmmoShadow"		Accel 0.0 0.0
+	
+	Animate AmmoNoClip								FgColor		"LowAmmo"			Accel 0.0 0.0
+	Animate AmmoNoClipShadow						FgColor		"AmmoShadow"		Accel 0.0 0.0
+}
+event ClearAmmo
+{	
+	Animate AmmoInClip								FgColor		"Ammo"				Accel 0.0 0.0
+	Animate AmmoInClipShadow						FgColor		"HealthShadow"		Accel 0.0 0.0
+	
+	Animate AmmoInReserve							FgColor		"AmmoReserve"		Accel 0.0 0.0
+	Animate AmmoInReserveShadow						FgColor		"AmmoShadow"		Accel 0.0 0.0
+	
+	Animate AmmoNoClip								FgColor		"Ammo"				Accel 0.0 0.0
+	Animate AmmoNoClipShadow						FgColor		"AmmoShadow"		Accel 0.0 0.0
+}

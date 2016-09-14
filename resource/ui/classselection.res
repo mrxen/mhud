@@ -15,7 +15,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -30,7 +29,24 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+	"BGPanelShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanelShadow"
+		"xpos"			"c200"
+		"ypos"			"cs-0.5"
+		"zpos"			"-1"
+		"wide"			"200"
+		"tall"			"300"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"noborder"
+		"proportionaltoparent"	"1"
+		"fillcolor"			"black200"
+		"bgcolor"			"black200"
+		"bgcolor_override"			"black200"
+		
+	}	
 	"random"
 	{
 		"ControlName"		"CExImageButton"
@@ -49,7 +65,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"HudFontSmallestBold"
+		"font"				"AvenirBlack7"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_random_inactive"
@@ -105,13 +121,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"(&R)"
+		"labelText"		"&0"
 		"textAlignment"	"east"
 		"Command"		"select 12"
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"AvenirBlack7"
 		"fgcolor"			"Highlight"
 			"defaultFgColor_override" "Highlight"
 		"armedFgColor_override" "Highlight"
@@ -751,7 +767,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"AvenirBlack7"
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
 		"armedFgColor_override" "Highlight2"
@@ -779,7 +795,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"AvenirBlack7"
 		"fgcolor"			"Highlight"
 			"defaultFgColor_override" "Highlight"
 		"armedFgColor_override" "Highlight"
@@ -807,7 +823,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"AvenirBlack7"
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
 		"armedFgColor_override" "Highlight2"
@@ -835,7 +851,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"AvenirBlack7"
 		"fgcolor"			"Highlight"
 			"defaultFgColor_override" "Highlight"
 		"armedFgColor_override" "Highlight"
@@ -860,7 +876,7 @@
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
-		"font"			"HudFontSmallestBold"
+		"font"			"AvenirBlack7"
 	}
 
 	"ClassMenuSelect"

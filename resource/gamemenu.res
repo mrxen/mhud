@@ -1,61 +1,73 @@
 "GameMenu" [$WIN32]
 {
+	"OpenMainMenuButton"
+	{
+		"label"	"i"
+		"command" "toggle_play_menu"
+		"subimage" "replay/thumbnails/mMenu/OpenMainMenuButton"
+		"OnlyAtMenu" "0"
+	}
+	"CharacterSetupButton"
+	{
+		"label" "Hats"
+		"command" "engine open_charinfo"
+		"subimage" "replay/thumbnails/bg/bg_solid"
+	}
+	"GeneralStoreButton"
+	{
+		"label" "Store"
+		"command" "engine open_store"
+		"subimage" "replay/thumbnails/bg/bg_solid"
+	}
+	"SettingsButton"
+	{
+		"label" "Options"
+		"command" "OpenOptionsDialog"
+		"subimage" "replay/thumbnails/bg/bg_solid"
+	}
+	"TF2SettingsButton"
+	{
+		"label" "Advanced"
+		"command" "OpenTF2Options"
+		"subimage" "replay/thumbnails/bg/bg_solid"
+	}
+	"QuitButton"
+	{
+		"label" "X"
+		"command" "engine gamemenucommand quit"
+	}
+	"ReloadButton"
+	{
+		"label" "d"
+		"command" "engine vgui_cache_res_files 0; incrementvar mat_antialias 0 1 1; hud_reloadscheme; vgui_cache_res_files 1"
+	}
 	"ResumeGameButton"
 	{
 		"label"			"#MMenu_ResumeGame"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"subimage" ""
 	}
-	"QuickplayButton"
-	{
-		"label" "Casual"
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame"
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Cooperative"
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-    "PlayCompButton"
-    {
-        "label" "Competitive" 
-        "command" "play_competitive"
-        "subimage" "glyph_practice"
-        "OnlyAtMenu" "1"
-    }	
-	"ServerBrowserButton"
-	{
-		"label" "Servers"
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	}
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer"
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
-	"mainmenu_image"
+	"MainMenuBg"
 	{
 		"OnlyAtMenu" "1"
+		"label"		""
+		"command"	"0"
+		"subimage"	"replay/thumbnails/bg/bg_solid"
 	}
-	"mainmenu_image2"
+	"InGameBg"
 	{
 		"OnlyInGame" "1"
+		"label"		""
+		"command"	"0"
+		"subimage"	"replay/thumbnails/blur/blur_solid"
+	}
+	"DisconnectButton"
+	{
+		"OnlyInGame" "1"
+		"Label"		"Disconnect"
+		"command"	"engine disconnect"
+		"subimage" "replay/thumbnails/bg/bg_solid"
 	}
 	"ReplayBrowserButton"
 	{
@@ -74,66 +86,40 @@
 		"label" "Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
+		"OnlyAtMenu" "0"
+	}
+	 "CasualButton"
+	{
+		"label" "Casual"
+		"command" "play_casual"
+		"subimage" "replay/thumbnails/bg/bg_solid"
 		"OnlyAtMenu" "1"
 	}
-	"FavoriteServer2"
+	"CompetitiveButton"
 	{
-		"label" "6"
-		"command" "watch_stream"
-    }
-	"FavoriteServer1"
-	{
-		"label" "7"
-		"command" "engine toggleconsole"
-	}
-	"7HUD"
-	{
-		"label" "7HUD"
-		"command"		"engine toggleconsole;
-			play vo/compmode/cm_admin_callout_no_rare_01.mp3
-			echo -------------------------------------------------------------------------------;
-			echo -------------------------------------------------------------------------------;
-			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
-			echo -------------------------------------------------------------------------------;
-			echo -------------------------------------------------------------------------------"
-		"subimage" "glyph_muted"
+		"label" "Competitive"
+		"command" "play_competitive"
+		"subimage" "replay/thumbnails/bg/bg_solid"
+		"OnlyAtMenu" "1"
 	}	
-	"Version"
+	"ServerBrowserButton"
 	{
-		"label" "#MMenu_ViewWar"
-		"command"		"view_war"
-		"subimage" "glyph_muted"
+		"label" "Servers"
+		"command" "OpenServerBrowser"
+		"subimage" "replay/thumbnails/bg/bg_solid"
+		"OnlyAtMenu" "0"
 	}
-	"Scoreboard"
-    {
-        "label" "Transparent"
-        "command"   "engine transparency_toggle"
-    }
-	"demoui"
-    {
-        "label" "DemoUI"
-        "command"   "engine demoui"
-    }
+	"MvMButton"
+	{
+		"label" "MvM"
+		"command" "play_mvm"
+		"subimage" "replay/thumbnails/bg/bg_solid"
+		"OnlyAtMenu" "1"
+	}
+
 
 	// These buttons get positioned by the MainMenuOverride.res
-	"CreateServerButton"
-	{
-		"label" "Create"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-	}
-	"GeneralStoreButton"
-	{
-		"label" "Store"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-	}
-	"CharacterSetupButton"
-	{
-		"label" "Items"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
-	}
+
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file

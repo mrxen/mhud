@@ -1,49 +1,22 @@
 "Resource/UI/HudAchievementTrackerItem.res"
 {
-
-//crosshair start
-
-	"fogCrosshair"
-		{
+	"KnucklesCrosses"
+	{
 		"controlname"	"CExLabel"
-		"fieldname"	"fogCrosshair"
+		"fieldname"	"KnucklesCrosses"
 		
-		"visible"	"1"			//1 to make visible
+		"visible"	"1"
 		"enabled"	"1"
-
-		"xpos"		"c-15"		//place laterally
-		"ypos"		"c-15"		//place vertically
+		"xpos"		"cs-0.5"
+		"ypos"		"cs-0.5"
 		"zpos"		"2"
-		
-		"wide"		"33"		//minute placement adjustments laterally
-		"tall"		"33"		//minute placement adjustments vertically
-
-		"font"		"fogCrosshair"		//change to fogCrosshairSmall for a smaller xhair
-
-		"labeltext"	"9"
-		// Change the "y" to represent the crosshair you want displayed in the fogscrosshairsv3.png
-		
-		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
-		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
-		// There are no fixed numbers for this
+		"wide"		"33"
+		"tall"		"33"
+		"font"		"knucklesCrosshair"
+		"labeltext"	"i"
 		"textAlignment"	"center"
-		
 		"fgcolor"	"WhiteS"
-		
-		// You can insert an RGB code here instead of the "White"
-		
-		// R	G	B	Transparency	= color
-		// "255 255 255 255"	= White
-		// "255 255 0 255 	= Yellow
-		// "145 225 25 255"	= Green
-		// If you change this, remember to change the same value in HudAnimations_tf.txt
-		// Otherwise the crosshair will change back to the default white color after
-		// flashing upon giving damage.
-
 	}
-
-//crosshair end	
-
     "HudAchievementTrackerItem"
     {
         "ControlName"   "EditablePanel"
@@ -58,7 +31,6 @@
 
         "PaintBackgroundType"   "2"
     }
-	
     "AchievementName"
     {
         "ControlName"   "Label"
@@ -73,7 +45,6 @@
         "font"          "AchievementTracker_Name"
         "textAlignment"     "north-west"
     }
-	
     "AchievementNameGlow"
     {
         "ControlName"   "Label"
@@ -89,7 +60,6 @@
         "textinsetx"    "5"
         "textAlignment"     "north-west"
     }
-	
     "AchievementDesc"
     {
         "ControlName"   "Label"
@@ -106,7 +76,6 @@
         "wrap"          "1"
         "TextAlignment"     "north-west"
     }
-	
     "ProgressBarBG"
     {
         "ControlName"       "ImagePanel"
@@ -117,10 +86,9 @@
         "tall"      "6"
         "fillcolor"  "250 234 201 51"
         "zpos"          "4"
-        "visible"       "1"
+        "visible"       "0"
         "enabled"       "1"
     }
-	
     "ProgressBar" // current completed
     {
         "ControlName"   "ImagePanel"
@@ -131,7 +99,7 @@
         "tall"          "6"
         "fillcolor"     "251 235 202 255"
         "zpos"          "5"
-        "visible"       "1"
+        "visible"       "9"
         "enabled"       "1"
     }
 }

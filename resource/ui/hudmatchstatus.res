@@ -2,7 +2,7 @@
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"RoundSignModel"
+		"fieldName"		"HudMatchStatus"
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -12,7 +12,7 @@
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
-		"fieldName"		"HudMatchStatus"
+		"fieldName"		"RoundSignModel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"		
@@ -57,16 +57,16 @@
 			}
 		}
 	}
-
+	
 	"CountdownLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"Bold16"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
-		"tall"			"40"
+		"tall"			"50"
 		"zpos"			"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"WhiteSolid"
 
 		if_readymode
 		{
@@ -89,11 +89,11 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
+		"font"			"Bold16"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
-		"tall"			"40"
+		"tall"			"50"
 		"zpos"			"4"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -193,7 +193,7 @@
 				"sequence"		"idle_closed"
 			}
 		}
-	}		
+	}	
 
 	"RoundCounter"
 	{
@@ -205,7 +205,8 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-	}
+	}	
+
 	"BGFrame"
 	{
 		"ControlName"		"EditablePanel"
@@ -215,84 +216,76 @@
 		"zpos"				"0"
 		"wide"				"365"
 		"tall"				"28"
-		"visible"			"0"		
-		
+		"visible"			"1"
+
 		"proportionaltoaparent"	"1"
-		"border"				"TFFatLineBorder"
-
-
+		"bgcolor_override"			"blank"
 		if_match
 		{
-				"visible"		"1"
+			"visible"		"1"
 		}
-	}	
+	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-76"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
-		"ypos"				"0"	
+		"xpos"				"c-55"
+		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"151"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
-		"tall"				"75"
-		"visible"			"0"
+		"wide"				"110"
+		"tall"				"150"
+		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"48"	
-		"delta_item_start_y"	"26"
-		"delta_item_end_y"		"36"
-		"PositiveColor"			"Green"
-		"NegativeColor"			"Red"
-		"delta_lifetime"		"0"
-		"delta_item_font"		"Regular13"
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"70"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"HudFontMedium"
 
 		if_match
 		{
-			"xpos"						"cs-0.5"
-			"wide"						"130"
-			"ypos_minmode"			"0"
+			"xpos"					"cs-0.5"
+			"wide"					"130"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"Bold12"
 		}
 		
 		"TimePanelValue"
 		{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TimePanelValue"
-		"font"			"Regular15"
-		"fgcolor"		"White"
-		"xpos"			"32"
-		"ypos"			"-1"		[$OSX]
-		"ypos"			"-3"		[$WIN32]		
-		"zpos"			"3"
-		"wide"			"88"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"		"center"
-		"labelText"		"0:00"
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"Bold20"
+			"fgcolor"		"WhiteSolid"
+			"xpos"			"23"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"50"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"
+			"labelText"		"0:00"
 
 			if_match
 			{
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"9"
-				"tall"			"10"
-				"font"			"Regular12"
+				"ypos"			"14"
+				"ypos_minmode"	"10"
+				"tall"			"20"
+				"font"			"Bold1"
 			}
 		}	
 	}
-	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -300,49 +293,57 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"f0"
+		"wide"			"0"
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
 
 
-		"max_size"	"19"
+		"max_size"	"22"
 
 		"6v6_gap"	"4"
-		"12v12_gap"	"1"
+		"12v12_gap"	"0"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
-		"team1_max_expand"	"133"
+		"team1_base_x"	"c-42"
+		"team1_max_expand"	"170"
+		"team1_max_expand_minmode"	"133"
+
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
-		"team2_max_expand"	"133"
+		"team2_base_x"	"c43"
+		"team2_max_expand"	"170"
+		"team2_max_expand_minmode"	"133"
 
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"25"
-			"tall"			"50"
+			"wide"			"50"
+			"tall"			"60"
 			"zpos"			"1"
 
 			"color_portrait_bg_red"	"119 62 61 255"
 			"color_portrait_bg_blue"	"62 81 101 255"
+			
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
+			
 			"color_bar_health_high"	"84 191 58 255"
 			"color_bar_health_med"	"191 183 58 255"
+			
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
+			
 			"percentage_health_low"	"0.3"
-			"color_portrait_blend_dead_red"	"255 255 255 255"
-			"color_portrait_blend_dead_blue" "255 255 255 255"
+			
+			"color_portrait_blend_dead_red"	"255 255 255 50"
+			"color_portrait_blend_dead_blue" "255 255 255 50"
 			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
+				"font"			"Bold12"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -390,7 +391,8 @@
 				"ypos"					"19"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"3"		
+				"tall_minmode"			"2"		
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -410,7 +412,8 @@
 				"ypos"					"19"
 				"zpos"					"6"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"3"	
+				"tall_minmode"			"2"			
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -478,7 +481,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"Bold15"
+				"font_minmode"	"Bold10"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -532,7 +536,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"f0"
+				"wide"			"100"
 				"tall"			"24"
 				"visible"		"0"
 				"enabled"		"1"
@@ -547,7 +551,7 @@
 				"xpos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"o1.2"
-				"tall"			"p0.15"
+				"tall"			"0"//"p0.15"
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/comp_player_status_skull"	
@@ -588,7 +592,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"fillcolor"		"BlueTeamS"
+			"border"		"noBorder"
 		}
 		"BlueTeamImage"
 		{
@@ -599,7 +604,7 @@
 			"zpos"			"5"
 			"wide"			"56"
 			"tall"			"56"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/team_blue"
 			"scaleImage"		"1"
@@ -667,10 +672,10 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-			
+
 			if_large
 			{
-					"tall"			"315"
+				"tall"			"315"
 			}
 		}
 		"BluePlayerListBG"
@@ -686,11 +691,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
-			
+			"border"		"Black100BoxBorder"
+
 			if_large
 			{
-				"tall"				"325"
+				"tall"			"325"
 			}
 		}
 	}
@@ -709,10 +714,10 @@
 
 		if_large
 		{
-				"ypos"				"65"
-				"tall"				"385"
+			"ypos"			"65"
+			"tall"			"385"
 		}
-		
+
 		"RedTeamBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -724,9 +729,9 @@
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"border"		"Black100BoxBorder"
 		}
 		"RedTeamImage"
 		{
@@ -737,7 +742,7 @@
 			"zpos"			"5"
 			"wide"			"70"
 			"tall"			"70"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/team_Red"
 			"scaleImage"		"1"
@@ -805,10 +810,10 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-			
+
 			if_large
 			{
-					"tall"				"315"
+				"tall"			"315"
 			}
 		}
 		"RedPlayerListBG"
@@ -824,12 +829,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
-			
-						
+			"border"		"Black100BoxBorder"
+
 			if_large
 			{
-					"tall"				"315"
+				"tall"			"325"
 			}
 		}
 	}

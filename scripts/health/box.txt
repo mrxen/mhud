@@ -1,0 +1,34 @@
+event BonusHealth
+{
+	Animate	HealthBG 	    BgColor		"Buff"				Accel 0.0 0.0
+   	Animate	HealthBG 	    Alpha		"200"		       	Accel 0.0 0.0
+   	
+   	Animate	TargetIDBGmhud	BgColor		"Buff"				Accel 0.0 0.0 	
+}
+event LowHealth
+{
+	Animate	HealthBG 	    BgColor		"Hurt"				Accel 0.0 0.0
+	Animate	HealthBG 	    Alpha		"200"		       	Accel 0.0 0.0
+	
+   	Animate	TargetIDBGmhud	BgColor		"Hurt"				Accel 0.0 0.0
+}
+
+Event ClearHealth
+{
+	Animate	HealthBG 	    BgColor		"HealthBG"			Accel 0.0 0.0
+	Animate	HealthBG 	    Alpha		"0"		    	   	Accel 0.0 0.0
+	
+   	Animate	TargetIDBGmhud	BgColor		"TargetIDHPBG"		Accel 0.0 0.0
+}
+event LowAmmo
+{
+	Animate AmmoBG			defaultBgColor_override	"LowAmmo"	Accel 0.0 0.0
+	Animate AmmoBG			Alpha					"200"		Accel 0.0 0.0
+	
+}
+event ClearAmmo
+{
+	Animate AmmoBG			defaultBgColor_override	"AmmoBG"	Accel 0.0 0.0
+	Animate AmmoBG			Alpha		"0"						Accel 0.0 0.0
+	
+}

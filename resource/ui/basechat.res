@@ -6,12 +6,16 @@
 		"fieldName" 		      "HudChat"
 		"visible" 		        "1"
 		"enabled" 		        "1"
-		"xpos"			          "5"
-		"ypos"			          "10"		//around 150 for center
-		"wide"	 		          "290"
+		"xpos"			          "1"
+		"ypos"			          "r200"		//around 150 for center
+		"wide"	 		          "270"
 		"tall"	 		          "120"
-		"fgcolor"		"Garm3nWhite"
-		"PaintBackgroundType"	"2"
+		"fgcolor"		"White"
+		"PaintBackgroundType"	"0"
+				"src_corner_height"		"15"
+		"src_corner_width"		"15"			
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 
 	ChatInputLine
@@ -20,9 +24,9 @@
 		"fieldName" 		      "ChatInputLine"
 		"visible" 		        "1"
 		"enabled" 		        "1"
-		"xpos"			          "7"
-		"ypos"			          "395"
-		"wide"	 		          "282"
+		"xpos"			          "0"
+		"ypos"			          "0"
+		"wide"	 		          "270"
 		"tall"	 		          "2"
 		"PaintBackgroundType"	"0"
 	}
@@ -31,7 +35,7 @@
 	{
 		"ControlName"		      "Button"
 		"fieldName"		        "ChatFiltersButton"
-		"xpos"			          "208"
+		"xpos"			          "0"
 		"ypos"			          "0"
 		"wide"			          "27"
 		"tall"			          "8"
@@ -51,18 +55,18 @@
 	{
 		"ControlName"		      "RichText"
 		"fieldName"		        "HudChatHistory"
-		"xpos"			          "7"
-		"ypos"			          "8"
-		"wide"	 		          "284"
-		"tall"			          "75"
+		"xpos"			          "0"
+		"ypos"			          "0"
+		"wide"	 		          "270"
+		"tall"			          "70"
 		"wrap"			          "1"
 		"autoResize"		      "1"
-		"pinCorner"		        "1"
+		"pinCorner"				  "1"
 		"visible"		          "1"
 		"enabled"		          "1"
 		"labelText"		        ""
 		"textAlignment"		    "south-west"
-		"font"			          "ChatFont"
+		"font"			          "CodeLight8i"
 		"maxchars"		        "-1"
 	}
 }

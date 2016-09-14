@@ -98,7 +98,7 @@
 			
 			"labeltext"			"%match_date%"
 			"font"				"MMenuPlayListDesc"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"WhiteSolid"
 			"textAlignment"		"west"
 		}
 
@@ -116,7 +116,7 @@
 			
 			"labeltext"			"%map_name%"
 			"font"				"MMenuPlayListDesc"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"WhiteSolid"
 			"textAlignment"		"west"
 		}
 
@@ -134,7 +134,7 @@
 			
 			"labeltext"			"%kd_ratio%"
 			"font"				"MMenuPlayListDesc"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"WhiteSolid"
 			"textAlignment"		"west"
 		}
 	}
@@ -186,8 +186,8 @@
 				"fieldName"		"BGImage"
 				"xpos"			"-2"
 				"ypos"			"0"
-				"wide"			"o1"
-				"tall"			"50"
+				"wide"			"0"
+				"tall"			"0"
 				"image"			"casual\gametype_koth"
 				"proportionaltoparent"	"1"	
 			}
@@ -199,8 +199,8 @@
 				"xpos"			"8"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"o1"
-				"tall"			"40"
+				"wide"			"0"
+				"tall"			"0"
 				"image"			"training\gradient_black"
 				"proportionaltoparent"	"1"	
 				"rotation"		"1"
@@ -234,7 +234,7 @@
 			
 				"labeltext"			"%stat_kills%"
 				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"WhiteSolid"
 				"textAlignment"		"west"
 			}
 
@@ -252,7 +252,7 @@
 			
 				"labeltext"			"%stat_deaths%"
 				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"WhiteSolid"
 				"textAlignment"		"west"
 			}
 
@@ -283,7 +283,7 @@
 			
 				"labeltext"			"%stat_damage%"
 				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"WhiteSolid"
 				"textAlignment"		"west"
 			}
 
@@ -315,7 +315,7 @@
 			
 				"labeltext"			"%stat_healing%"
 				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"WhiteSolid"
 				"textAlignment"		"west"
 			}
 
@@ -346,7 +346,7 @@
 			
 				"labeltext"			"%stat_support%"
 				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"WhiteSolid"
 				"textAlignment"		"west"
 			}
 
@@ -379,7 +379,7 @@
 			
 				"labeltext"			"%stat_score%"
 				"font"				"MMenuPlayListDesc"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"WhiteSolid"
 				"textAlignment"		"west"
 			}
 

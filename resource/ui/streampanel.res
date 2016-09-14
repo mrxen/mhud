@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"bgcolor_override"	"35 33 32 140"
+		"bgcolor_override"	"0 0 0 50"
 	}
 
 
@@ -60,7 +60,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"250 250 250 175"
+			"fgcolor"		"56 53 49 255"
 
 			"proportionaltoparent"	"1"
 		}
@@ -71,7 +71,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PreviewImage"
-		"xpos"			"3"
+		"xpos"			"5"
 		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"80"
@@ -85,65 +85,64 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"HudFontSmallest"
+		"font"			"Bold14"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
-		"xpos"			"87"
-		"ypos"			"2"	
+		"xpos"			"90"
+		"ypos"			"5"
 		"wide"			"205"
-		"tall"			"12"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"220 220 220 255"
+		"fgcolor"		"255 255 255 234"
 	}
 
 	"TextDescriptionLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"%text_description%"
 		"textAlignment"	"north-west"
-		"xpos"			"87"
-		"ypos"			"14"	
-		"wide"			"195"
-		"tall"			"25"
-		"wrap"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"150 150 150 255"
-	}
-
-	"ViewerCountLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ViewerCountLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"%viewer_count%"
-		"textAlignment"	"west"
-		"xpos"			"87"
-		"ypos"			"38"
+		"xpos"			"90"
+		"ypos"			"18"
 		"wide"			"205"
 		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"220 220 220 255"
+		"fgcolor"		"56 53 49 208
+	}
+
+	"ViewerCountLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ViewerCountLabel"
+		"font"			"HudFontSmallest"
+		"labelText"		"%viewer_count%"
+		"textAlignment"	"west"
+		"xpos"			"90"
+		"ypos"			"31"
+		"wide"			"205"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"56 53 49 255"
 	}
 
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Stream_URLButton"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"294"
+		"wide"			"290"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -157,7 +156,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_armed"		"highlightborder"
+		"border_armed"		"BlackBoxBorder"
 			
 		"defaultFgColor_override" "0 0 0 0"
 		"defaultBgColor_override" "0 0 0 0"

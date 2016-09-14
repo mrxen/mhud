@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "replay/thumbnails/shadows/outer_shadow_border_bottomleft.vtf"
+	"$translucent" 1
+	"$ignorez" 1
+}

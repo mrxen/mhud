@@ -50,7 +50,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
-		"xpos"			"2"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"31"
@@ -60,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Regular9"
+			"font"			"DefaultVerySmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -143,7 +143,7 @@
 			"ypos"			"0"
 			"wide"			"34"
 			"tall"			"31"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
 		}
@@ -212,7 +212,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Regular9"
+				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -270,7 +270,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RechargeLabel"
-					"font"			"Regular9"
+					"font"			"DefaultVerySmall"
 					"xpos"			"0"
 					"ypos"			"1"
 					"wide"			"200"
@@ -318,7 +318,7 @@
 				{	
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"Regular9"
+					"font"			"DefaultVerySmall"
 					"xpos"			"0"
 					"ypos"			"-6"
 					"wide"			"200"
@@ -338,7 +338,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
-				"font"			"Regular9"
+				"font"			"DefaultVerySmall"
 				"xpos"			"0"
 				"ypos"			"14"
 				"wide"			"200"

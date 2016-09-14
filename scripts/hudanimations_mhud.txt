@@ -1,0 +1,271 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Position
+//			Size
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//			Ammo2Color	(hud panels only)
+//			Alpha		(hud weapon selection only)
+//			SelectionAlpha  (hud weapon selection only)
+//			TextScan	(hud weapon selection only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//			Spline - simple ease in/out curve
+//			Pulse - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
+//			Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
+//			Gain - < bias > Lower bias values bias towards 0.5 and higher bias values bias away from it.
+//			Bias - < bias > Lower values bias the curve towards 0 and higher values bias it towards 1.
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
+//
+//	SetTexture <panel name> <textureidname> <texturefilename> <set time>
+//
+//  SetString <panel name> <string varname> <stringvalue> <set time>
+
+event DamagedPlayer
+{
+	Animate KnuckesCrosses	FgColor		"255 0 0 255"	Linear 0.0 0.00001
+	Animate KnucklesCrosses	FgColor		"WhiteS"		Linear 0.20 0.10001
+
+	Runevent ScopeRemoval 0.0
+}
+
+event ScopeRemoval
+{
+Animate HudScope Position	"9999 9999" Linear 0.0 0.0
+}
+
+//-----------------------------------------------------
+//Main Menu Animations
+
+event MMenu_PlayList_Expand
+{
+	Animate MainDropdown	tall	300			Spline		0.0 0.3
+	FireCommand 0 "soundentry Panel.SlideDown"
+	Animate CasualButton	tall	0			Spline		0.0 0.3
+	Animate CompetitiveButton	tall	0			Spline		0.0 0.3
+	Animate ServerBrowserButton	tall	0			Spline		0.0 0.3
+	Animate MvMButton	tall	0			Spline		0.0 0.3
+
+	
+}
+
+event MMenu_PlayList_Collapse
+{
+	Animate MainDropdown	tall	0			Spline		0.0 0.3
+	FireCommand 0 "soundentry Panel.SlideUp"
+	Animate CasualButton	tall	20			Spline		0.0 0.3
+	Animate CompetitiveButton	tall	20			Spline		0.0 0.3
+	Animate ServerBrowserButton	tall	20			Spline		0.0 0.3
+	Animate MvMButton	tall	20			Spline		0.0 0.3
+
+}
+
+event MMenu_PlayList_Collapse_Immediate
+{
+	Animate MainDropdown	tall	0			Spline		0.0 0.0
+}
+//===========================================
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthValueCam 				FgColor	"Buff"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 			FgColor	"WhiteS"		Accel 0.0 0.0
+	
+	Animate	TargetHPBGTournament 					BgColor	"Buff"	    Accel 0.0 0.0			
+	Animate	PlayerStatusHealthValueTargetIDBoxWhite	FgColor	"WhiteSolid"	Accel 0.0 0.0
+
+	RunEvent	BonusHealth	0.0
+	Stopevent	ClearHealth	0.0
+}
+event HudHealthBonusPulseStop
+{
+    Animate PlayerStatusHealthValueCam 	    		FgColor	"Health"		Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec 			FgColor	"Health"		Accel 0.0 0.0         
+	
+	Animate	TargetHPBGTournament 					BgColor	"HudBGStatus"	Accel 0.0 0.0		
+	Animate	PlayerStatusHealthValueTargetIDBoxWhite	FgColor	"BlackSolid"	Accel 0.0 0.0
+	
+	Stopevent	BonusHealth	0.0
+	RunEvent	ClearHealth	0.0
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthValueCam 				FgColor	"Low"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 			FgColor	"WhiteS"	    Accel 0.0 0.0
+	Animate	TargetHPBGTournament 					BgColor	"Hurt"	    Accel 0.0 0.0
+	
+	RunEvent	LowHealth	0.0
+	Stopevent	ClearHealth	0.0
+	
+	animate 	PlayerStatusHealthImageBG2 tall 20	accel 0.0 2
+
+
+}
+
+event HudHealthDyingPulseStop
+{
+	Animate	PlayerStatusHealthValueCam 		FgColor		"WhiteS"            Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	        Accel 0.0 0.0
+	Animate	TargetHPBGTournament 			BgColor		"HudBGStatus"		Accel 0.0 0.0			
+	
+	Stopevent	LowHealth	0.0
+	Runevent	ClearHealth	0.0
+	
+}
+
+//===========================================
+
+event HudLowAmmoPulse
+{	
+	Stopevent	ClearAmmo 0.0
+	RunEvent LowAmmo	0.0	
+}
+event HudLowAmmoPulseStop
+{
+	
+	StopEvent LowAmmo 0.0
+	RunEvent	ClearAmmo 0.0
+}
+
+//===========================================
+// Flash medic charge hud when you have full charge
+
+event HudMedicCharged
+{
+	Animate	ChargeMeter 	        FgColor		"0 255 255 100"		Linear 0.0 0.0
+	Animate	ChargeMeter 	        FgColor		"0 255 255 255"		Linear 0.0 0.3
+	Runevent	HudMedicCharged	0.6
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	Animate	ChargeMeter 	        FgColor		"Health"		Linear 0.0 0.1
+}
+
+//===========================================
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"200"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"c50 c-30"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"150 150"		Linear 0.0 0.2
+	RunEvent HudSpyDisguiseHide	0.5
+}
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"140 r0"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"0 0"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage		Alpha		"255"	Linear 0.0 0.0
+}
+event HudSpyDisguiseFadeOut
+{
+
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage		Alpha		"0"				Linear 0.0 0.0
+}
+
+//===========================================
+
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+//===========================================
+
+// winpanel activation
+event WinPanel_CompPos
+{
+	Animate WinPanel ypos r132 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+	Animate WinPanel ypos r132 Linear 0 0
+}
+
+//--------------------------------------------------------------------------
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	SetVisible SkullPanel  1 0
+	SetVisible respawntime  1 0
+
+	Animate DeathPanel ypos 19 Accel 0 0.2
+	Animate SkullPanel ypos 20 Accel 0 0.2
+	Animate respawntime ypos 21 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+
+	SetVisible DeathPanel  0 0.2
+	SetVisible SkullPanel  0 0.2
+	SetVisible respawntime 0 0.2
+}
+
+event CompetitiveGame_LowerChatWindow
+{
+	Animate HudChat ypos r140 Accel 0 0
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos r200 Accel 0 0
+}
+
+event HudTournament_MoveChatWindow
+{
+	RunEvent CompetitiveGame_LowerChatWindow 0
+	RunEvent CompetitiveGame_RestoreChatWindow 10
+}
+//--------------------------------------------------------------------------
