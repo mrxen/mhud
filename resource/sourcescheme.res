@@ -9,12 +9,12 @@ Scheme
 	{
 	
 		"mFocusedBg"				"30 30 30 255"			// Focus window background
-		"mUnfocusedBg"				"50	50 50 255"			// Unfocused window background
+		"mUnfocusedBg"				"40	40 40 255"			// Unfocused window background
 		"mFocusedGrip"				"90 90 90 255"			// Focus grip
 		"mUnfocusedGrip"			"50	50 50 255"			// Unfocused grip
 
 		"mTitleFg"					"255 255 255 255"		// Title text
-		"mTitleBg"					"33 150 243 255"		// Title background
+		"mTitleBg"					"33 150 243 0"			// Title background
 		"mHighlight"				"100 100 100 255"		// Highlighted text
 		
 		"mListBg"					"20 20 20 255"			// Server browser Background
@@ -27,7 +27,7 @@ Scheme
 		"mTextHighlight"			"255 255 255 255"		// Highlighted text
 		"mTextSelect"				"255 255 255 255"		// Selected text
 		"mTextSelectBg"				"255 255 255 255"		// Selected text background
-		"mTextDisable"				"200 200 200 255"		// Disabled text
+		"mTextDisable"				"255 255 255 153"		// Disabled text
 		
 		"mButtonBg"					"64 160 220 255"		// Button background
 		"mButtonFg"					"255 255 255 255"		// Button text

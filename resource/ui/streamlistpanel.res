@@ -1,53 +1,41 @@
 "Resource/UI/StreamListPanel.res"
 {
-	"HeaderContainer"
+	"HeaderLabel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HeaderContainer"
+		"ControlName"	"CExLabel"
+		"fieldName"		"HeaderLabel"
+		"font"			"Bold16"
+		"textAlignment"	"south-west"
+		"labelText"		"Streams"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"240"
-		"tall"			"22"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
-			
-		"HeaderLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"HeaderLabel"
-			"font"			"Bold16"
-			"textAlignment"	"south-west"
-			"labelText"		"Streams"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"f0"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"10"
-			"textinset7"	"1"
-			"PaintBackgroundType" "2"
-			"fgcolor_override"	"255 255 255 234"
-			"bgcolor_override"	"0 0 0 0"
-			"border"			"noborder"
-		}
+		"enabled"		"1"
+		"textinsetx"	"10"
+		"textinsety"	"1"
+		"PaintBackgroundType" "2"
+		"fgcolor_override"	"255 255 255 234"
+		"bgcolor_override"	"0 0 0 0"
+		"border"			"noborder"
 	}
 	"HeaderBackground"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldname"		"HeaderBackground"
-		"xpos"			"0"
+		"xpos"			"2"
 		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"240"
-		"tall"			"330"
+		"zpos"			"0"
+		"wide"			"191"
+		"tall"			"24"
 		"visible"		"1"
 		"paintBackgroundType"	"0"
 		"scaleimage"			"1"
-		"image"			"replay/thumbnails/mMenu/Box"
+		"image"			"replay/thumbnails/bg/bg_solid"
 		"drawcolor"		"33 150 243 255"
 	}
 	"Background"
@@ -55,10 +43,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldname"		"Background"
 		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
-		"wide"			"240"
-		"tall"			"330"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"200"
+		"tall"			"300"
 		"visible"		"1"
 		"paintBackgroundType"	"0"
 		"scaleimage"			"1"
@@ -69,7 +57,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"100"
+		"xpos"			"178"
 		"ypos"			"4"
 		"zpos"			"10"
 		"wide"			"14"
@@ -134,13 +122,12 @@
 		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
-
 	"Stream1"
 	{
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream1"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"25"
 		"zpos"			"1"
 		"zpos"			"1"
 		"wide"			"p1"	//StreamWide
@@ -151,13 +138,12 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
 	"Stream2"
 	{
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream2"
 		"xpos"			"0"
-		"ypos"			"90"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"p1"	//StreamWide
 		"tall"			"50"
@@ -167,13 +153,12 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
 	"Stream3"
 	{
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream3"
 		"xpos"			"0"
-		"ypos"			"140"
+		"ypos"			"125"
 		"zpos"			"1"
 		"wide"			"p1"	//StreamWide
 		"tall"			"50"
@@ -183,13 +168,12 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
 	"Stream4"
 	{
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream4"
 		"xpos"			"0"
-		"ypos"			"190"
+		"ypos"			"175"
 		"zpos"			"1"
 		"wide"			"p1"	//StreamWide
 		"tall"			"50"
@@ -199,13 +183,12 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
 	"Stream5"
 	{
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream5"
 		"xpos"			"0"
-		"ypos"			"240"
+		"ypos"			"225"
 		"zpos"			"1"
 		"wide"			"p1"	//StreamWide
 		"tall"			"50"
@@ -215,22 +198,23 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Stream_URLButton"
-		"xpos"			"r60"
-		"ypos"			"0"
-		"wide"			"60"
+		"xpos"			"60"
+		"ypos"			"280"
+		"zpos"			"2"
+		"wide"			"100"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#MMenu_Stream_ViewMore"
 		"textinsetx"	"20"
+		"textinsety"	"3"
 		"use_proportional_insets" "1"
 		"font"			"Bold12"
 		"textAlignment"	"center"
@@ -242,9 +226,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
-		"defaultFgColor_override" "235 226 202 255"
-		"defaultBgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "235 226 202 255"
+		"defaultFgColor_override" "255 255 255 208"
+		"defaultBgColor_override" "46 43 42 0"
+		"armedFgColor_override" "255 255 255 234"
+		"depressedFgColor_override" "0 0 0 78"
 	}	
 }

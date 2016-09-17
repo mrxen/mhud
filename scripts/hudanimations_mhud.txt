@@ -61,30 +61,63 @@ Animate HudScope Position	"9999 9999" Linear 0.0 0.0
 
 event MMenu_PlayList_Expand
 {
-	Animate MainDropdown	tall	300			Spline		0.0 0.3
+//	Animate MainDropdown	ypos	300			Spline		0.0 0.25
 	FireCommand 0 "soundentry Panel.SlideDown"
-	Animate CasualButton	tall	0			Spline		0.0 0.3
-	Animate CompetitiveButton	tall	0			Spline		0.0 0.3
-	Animate ServerBrowserButton	tall	0			Spline		0.0 0.3
-	Animate MvMButton	tall	0			Spline		0.0 0.3
-
 	
+	Animate CasualButton				ypos	-26			Spline		0.0 0.25
+	Animate CompetitiveButton			ypos	-26			Spline		0.0 0.25
+	Animate ServerBrowserButton			ypos	-26			Spline		0.0 0.25
+	Animate MvMButton					ypos	-26			Spline		0.0 0.25
+
+	Animate CharacterSetupButton		ypos	-26			Spline		0.0 0.25
+	Animate GeneralStoreButton			ypos	-26			Spline		0.0 0.25
+	Animate SettingsButton				ypos	-26			Spline		0.0 0.25
+	Animate Tf2SettingsButton			ypos	-26			Spline		0.0 0.25
+
+	Animate OpenMainMenuButton			ypos	-41			Spline		0.0 0.25
+//	Animate OpenMainMenuButtonMin		ypos	r12			Spline		0.0 0.25
+	Animate Top							ypos	-100		Spline		0.0 0.25
+
 }
 
 event MMenu_PlayList_Collapse
 {
-	Animate MainDropdown	tall	0			Spline		0.0 0.3
+//	Animate MainDropdown	ypos	0			Spline		0.0 0.25
 	FireCommand 0 "soundentry Panel.SlideUp"
-	Animate CasualButton	tall	20			Spline		0.0 0.3
-	Animate CompetitiveButton	tall	20			Spline		0.0 0.3
-	Animate ServerBrowserButton	tall	20			Spline		0.0 0.3
-	Animate MvMButton	tall	20			Spline		0.0 0.3
 
+	Animate CasualButton				ypos	0			Spline		0.0 0.25
+	Animate CompetitiveButton			ypos	0			Spline		0.0 0.25
+	Animate ServerBrowserButton			ypos	0			Spline		0.0 0.25
+	Animate MvMButton					ypos	0			Spline		0.0 0.25
+
+	Animate CharacterSetupButton		ypos	0			Spline		0.0 0.25
+	Animate GeneralStoreButton			ypos	0			Spline		0.0 0.25
+	Animate SettingsButton				ypos	0			Spline		0.0 0.25
+	Animate Tf2SettingsButton			ypos	0			Spline		0.0 0.25
+
+	Animate OpenMainMenuButton			ypos	3			Spline		0.0 0.25
+//	Animate OpenMainMenuButtonMin		ypos	r0			Spline		0.0 0.25
+
+	Animate Top							ypos	-70			Spline		0.0 0.25
 }
 
 event MMenu_PlayList_Collapse_Immediate
 {
-	Animate MainDropdown	tall	0			Spline		0.0 0.0
+	Animate CasualButton				ypos	0			Spline		0.0 0.25
+	Animate CompetitiveButton			ypos	0			Spline		0.0 0.25
+	Animate ServerBrowserButton			ypos	0			Spline		0.0 0.25
+	Animate MvMButton					ypos	0			Spline		0.0 0.25
+	
+	Animate CharacterSetupButton		ypos	0			Spline		0.0 0.25
+	Animate GeneralStoreButton			ypos	0			Spline		0.0 0.25
+	Animate SettingsButton				ypos	0			Spline		0.0 0.25
+	Animate Tf2SettingsButton			ypos	0			Spline		0.0 0.25
+
+	Animate OpenMainMenuButton			ypos	3			Spline		0.0 0.25
+//	Animate OpenMainMenuButtonMin		ypos	r0			Spline		0.0 0.25
+
+//	Animate	OpenMainMenuButton			wide	20			Spline		0.0 0.25
+	Animate Top							ypos	-70			Spline		0.0 0.25
 }
 //===========================================
 //Health Bonus Pulse
@@ -251,6 +284,14 @@ event TeamStatus_PlayerAlive
 	SetVisible DeathPanel  0 0.2
 	SetVisible SkullPanel  0 0.2
 	SetVisible respawntime 0 0.2
+}
+event PvPRankLevelUpXPBar
+{
+	Animate ContinuousProgressBar BgColor UIMeterProgress Linear 0.0 0.1
+	Animate ContinuousProgressBar BgColor UIMeterProgress Linear 0.1 0.3
+
+	Animate LevelLabel FgColor "100 255 100 255"	Linear 0.0 0.1
+	Animate LevelLabel FgColor WhiteSolid			Linear 4.0 0.3 
 }
 
 event CompetitiveGame_LowerChatWindow

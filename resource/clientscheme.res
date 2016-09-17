@@ -5,8 +5,8 @@
 
 
 ///  Font Switcher  //////////////////////////////
-//#base "scheme/Fonts - Vertexio.res"      		//
-//#base "scheme/Fonts - Motor Oil.res"      	//
+//#base "scheme/Fonts - Sans.res"      			//
+//#base "scheme/Fonts - Oswald.res"      		//
 #base "scheme/Fonts - Code.res"      			//
 //#base "scheme/Fonts - Avenir.res"				//
 //#base "scheme/Fonts - Roboto.res"				//

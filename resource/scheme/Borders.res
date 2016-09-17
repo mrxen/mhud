@@ -2614,6 +2614,17 @@ Scheme
     		"draw_corner_width"		"0"
     		"draw_corner_height" 	"0"
 		}
+		Blue200BoxBorder
+		{
+    		"bordertype"			"scalable_image"
+    		"backgroundtype"		"2"
+    		"color"					"Blue200"
+    		"image"					"replay/thumbnails/bg/bg_solid.vmt"
+    		"src_corner_height"		"15"
+    		"src_corner_width"		"15"
+    		"draw_corner_width"		"0"
+    		"draw_corner_height" 	"0"
+		}
 		LBlueBoxBorder
 		{
     		"bordertype"			"scalable_image"
@@ -2625,7 +2636,28 @@ Scheme
     		"draw_corner_width"		"0"
     		"draw_corner_height" 	"0"	
 		}
-		
+		RButtonBorder
+		{
+    		"bordertype"			"scalable_image"
+    		"backgroundtype"		"2"
+    		"color"					"UIHighlight"
+    		"image"					"replay/thumbnails/mMenu/OpenMainMenuButton"
+    		"src_corner_height"		"15"
+    		"src_corner_width"		"15"
+    		"draw_corner_width"		"0"
+    		"draw_corner_height" 	"0"	
+		}
+		RButtonBorder2
+		{
+    		"bordertype"			"scalable_image"
+    		"backgroundtype"		"2"
+    		"color"					"UIHighlight2"
+    		"image"					"replay/thumbnails/mMenu/OpenMainMenuButton"
+    		"src_corner_height"		"15"
+    		"src_corner_width"		"15"
+    		"draw_corner_width"		"0"
+    		"draw_corner_height" 	"0"	
+		}
 				
 //////////////////////// Menu Borders /////////////////////////////
 		

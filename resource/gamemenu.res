@@ -5,7 +5,21 @@
 		"label"	"i"
 		"command" "toggle_play_menu"
 		"subimage" "replay/thumbnails/mMenu/OpenMainMenuButton"
-		"OnlyAtMenu" "0"
+		"OnlyAtMenu" "1"
+	}
+	"OpenMainMenuButtonInGame"
+	{
+		"label"	"i"
+		"command" "toggle_play_menu"
+		"subimage" "replay/thumbnails/mMenu/OpenMainMenuButton"
+		"OnlyInGame" "1"
+	}
+	"OpenMainMenuButtonMin"
+	{
+		"label"	"i"
+		"command" "toggle_play_menu"
+		"subimage" "replay/thumbnails/mMenu/OpenMainMenuButton"
+		"OnlyInGame" "0"
 	}
 	"CharacterSetupButton"
 	{
@@ -43,10 +57,10 @@
 	}
 	"ResumeGameButton"
 	{
-		"label"			"#MMenu_ResumeGame"
+		"label"			"{"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
-		"subimage" ""
+		"subimage" "replay/thumbnails/bg/bg_circle"
 	}
 	"MainMenuBg"
 	{
@@ -93,14 +107,14 @@
 		"label" "Casual"
 		"command" "play_casual"
 		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	"CompetitiveButton"
 	{
-		"label" "Competitive"
+		"label" "Comp"
 		"command" "play_competitive"
 		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}	
 	"ServerBrowserButton"
 	{
@@ -114,7 +128,7 @@
 		"label" "MvM"
 		"command" "play_mvm"
 		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 
 

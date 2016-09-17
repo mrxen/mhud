@@ -14,12 +14,12 @@ Scheme
 		"Hurt"				"255 47 47 255"			// Low health and ammo warning colour
 		"HealthBG"			"0 0 0 0"				// Health background
 		
-		"TargetIDHPBG"		"0 0 0 183"				// Target ID health background
-		"TargetIDBG"		"0 0 0 183"				// Target ID background
-		"TargetName"		"255 255 255 255"		// Target ID name
+		"TargetIDHPBG"		"0 0 0 255"				// Target ID health background
+		"TargetIDBG"		"255 255 255 200"		// Target ID background
+		"TargetName"		"0 0 0 255"				// Target ID name
 		"TargetData"		"255 255 255 255"		// Target ID data label
-		"TargetDataBG"		"0 0 0 100"				// Target ID data label background
-		"TargetHP"			"0 0 0 255"				//Target ID health background
+		"TargetDataBG"		"0 0 0 0"				// Target ID data label background
+		"TargetHP"			"0 0 0 255"				// Target ID health
 
 		"Ammo"              "255 255 255 225"		// Current Clip
 		"AmmoReserve"       "0 255 255 255"			// Total reserve	
@@ -37,8 +37,11 @@ Scheme
 		"MeterFg1"			"80 220 80 255"			// Primary meter text
 		"MeterFg2"			"60 160 255 255"		// Secondary meter text
 		"MeterFg3"			"230 40 40 255"			// Tertiary meter text
-		"CritText"			"255 255 255 255"		// Diamondback crit text
-		"CritTextShadow"	"0 0 0 255"				// Diamondback crit text shadow
+		"CritText"			"0 200 200 255"			// Itemeffectmeter text
+		"CritTextShadow"	"0 0 0 255"				// Itemeffectmeter text shadow
+		"CritDesc"			"255 255 255 255"		// Itemeffectmeter text description
+		"CritDescShadow"	"0 0 0 255"				// Itemeffectmeter text description shadow
+
 
 		"HudBGStatus"		"0 0 0 0"				// Transparent BG for HP/Ammo boxes
 			
@@ -140,6 +143,7 @@ Scheme
 		"UIMeterProgress"		"240 98 146 255"
 		
 		"UIHighlight"			"233 30 99 255"
+		"UIHighlight2"			"255 64 129 255"
 		
 		"b50"					"227 242 253 255"
 		"b100"					"187 222 251 255"

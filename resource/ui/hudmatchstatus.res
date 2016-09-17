@@ -199,40 +199,20 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"-2"
-		"zpos"			"1"		
+		"ypos"			"0"
+		"zpos"			"-2"		
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
-
-	"BGFrame"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
-		"visible"			"1"
-
-		"proportionaltoaparent"	"1"
-		"bgcolor_override"			"blank"
-		if_match
-		{
-			"visible"		"1"
-		}
 	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
 		"ypos"				"0"
-		"zpos"				"2"
+		"zpos"				"-1"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"1"
@@ -279,12 +259,32 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"14"
-				"ypos_minmode"	"10"
-				"tall"			"20"
-				"font"			"Bold1"
+				"ypos"			"4"
+				"tall"			"18"
+				"textinsety"	"5"
+				"wide"			"80"
+				"font"			"Bold16"
 			}
-		}	
+		}
+		"BGFrame"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"BGFrame"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-1"
+			"wide"				"80"
+			"tall"				"28"
+			"visible"			"0"
+			"image"				"replay/thumbnails/mMenu/Box"
+			"drawcolor"			"35 35 35 255"
+			"proportionaltoaparent"	"0"
+			"scaleimage"			"1"
+			if_match
+			{
+			"visible"		"0"
+			}
+		}
 	}
 	"TeamStatus"
 	{
@@ -293,7 +293,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"0"
+		"wide"			"f0"
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
@@ -306,33 +306,31 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-42"
-		"team1_max_expand"	"170"
-		"team1_max_expand_minmode"	"133"
+		"team1_max_expand"	"130"
 
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c43"
-		"team2_max_expand"	"170"
-		"team2_max_expand_minmode"	"133"
+		"team2_max_expand"	"130"
 
 		"playerpanels_kv"
 		{
-			"visible"		"0"
+			"visible"		"1"
 			"wide"			"50"
 			"tall"			"60"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"	"Red100"
+			"color_portrait_bg_blue"	"Blue100"
 			
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			
-			"color_bar_health_high"	"84 191 58 255"
-			"color_bar_health_med"	"191 183 58 255"
+			"color_bar_health_high"	"90 234 90 255"
+			"color_bar_health_med"	"255 190 30 255"
 			
 			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"191 58 58 255"
+			"color_bar_health_low"	"Hurt"
 			
 			"percentage_health_low"	"0.3"
 			
@@ -370,7 +368,7 @@
 			}
 			"classimagebg"
 			{
-				"ControlName"		"Panel"
+				"ControlName"	"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -391,8 +389,7 @@
 				"ypos"					"19"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"3"		
-				"tall_minmode"			"2"		
+				"tall"					"2"		
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -412,8 +409,7 @@
 				"ypos"					"19"
 				"zpos"					"6"
 				"wide"					"f0"
-				"tall"					"3"	
-				"tall_minmode"			"2"			
+				"tall"					"2"	
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -422,7 +418,7 @@
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "255 255 255 160"
+				"fgcolor_override"	   "WhiteSolid"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
@@ -481,8 +477,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Bold15"
-				"font_minmode"	"Bold10"
+				"font"			"Bold9"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -536,7 +531,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"100"
+				"wide"			"13"
 				"tall"			"24"
 				"visible"		"0"
 				"enabled"		"1"
@@ -551,7 +546,7 @@
 				"xpos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"o1.2"
-				"tall"			"0"//"p0.15"
+				"tall"			"p0.15"
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/comp_player_status_skull"	
@@ -581,7 +576,7 @@
 
 		"BlueTeamBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueTeamBG"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -592,8 +587,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"BlueTeamS"
-			"border"		"noBorder"
+			"border"		"TFFatLineBorderBlueBG"
 		}
 		"BlueTeamImage"
 		{
@@ -613,15 +607,15 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"CompMatchStartTeamNames"
+			"font"			"Bold24"
 			"labelText"		"%blueteamname%"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"xpos"			"48"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
 			"tall"			"30"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -691,7 +685,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"Black100BoxBorder"
+			"border"		"Black200BoxBorder"
 
 			if_large
 			{
@@ -720,7 +714,7 @@
 
 		"RedTeamBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedTeamBG"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -731,11 +725,11 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"border"		"Black100BoxBorder"
+			"border"		"TFFatLineBorderRedBG"
 		}
 		"RedTeamImage"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"RedTeamImage"
 			"xpos"			"84"
 			"ypos"			"-9"
@@ -751,15 +745,15 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"CompMatchStartTeamNames"
+			"font"			"Bold24"
 			"labelText"		"%redteamname%"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"xpos"			"5"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
 			"tall"			"30"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -829,7 +823,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"Black100BoxBorder"
+			"border"		"Black200BoxBorder"
 
 			if_large
 			{

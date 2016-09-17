@@ -3167,8 +3167,9 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"21"
-				"outline"	"1"	
+				"outline"	"0"	
 				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		"Health"
@@ -3176,7 +3177,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"56"
+				"tall"		"55"
 				"antialias"	"1"
 			}
 		}
@@ -3194,9 +3195,9 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"56"
+				"tall"		"55"
 				"antialias"	"1"
-				"blur"		"1"
+				"blur"		"0"
 			}
 		}
 		"HealthShadowMinmode"
@@ -3206,7 +3207,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"44"
 				"antialias"	"1"
-				"blur"		"1"
+				"blur"		"0"
 			}
 		}
 		"Ammo"
@@ -3214,7 +3215,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"56"
+				"tall"		"55"
 				"antialias"	"1"
 			}
 		}
@@ -3232,9 +3233,9 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"56"
+				"tall"		"55"
 				"antialias"	"1"
-				"blur"		"1"
+				"blur"		"0"
 			}
 		}
 		"AmmoShadowMinmode"
@@ -3244,7 +3245,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"44"
 				"antialias"	"1"
-				"blur"		"1"
+				"blur"		"0"
 			}
 		}
 		"AmmoReserve"
@@ -3272,7 +3273,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"30"
 				"antialias"	"1"
-				"blur"		"1"
+				"blur"		"0"
 			}
 		}
 		"AmmoReserveShadowMinmode"
@@ -3282,7 +3283,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"24"
 				"antialias"	"1"
-				"blur"		"1"
+				"blur"		"0"
 			}
 		}
 
