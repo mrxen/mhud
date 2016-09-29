@@ -1,4 +1,4 @@
-#base "../../alternatives/lobby/base.res"
+#base "lobbypanel.res"
 
 "Resource/UI/LobbyPanel_Casual.res"
 {
@@ -7,7 +7,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"LobbyPanel"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -18,7 +18,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"Blank"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 
 	}
 	"ModeBackgroundImage"
@@ -36,14 +36,14 @@
 		"image"			"competitive/comp_background_tier001a"
 		"scaleImage"	"1"
 	}
-	"GameModesContainer"
+	"GameModesContainer"		// Map selection
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"GameModesContainer"
-		"xpos"			"c-305"
-		"ypos"			"82"
+		"xpos"			"c20"
+		"ypos"			"40"
 		"zpos"			"100"
-		"wide"			"260"
+		"wide"			"300"
 		"tall"			"290"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -76,7 +76,7 @@
 				"tall"			"p0.85"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"InnerShadowBorder"
+				"border"		"noBorder"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 			}
@@ -112,7 +112,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"Title"
-				"xpos"		"10"
+				"xpos"		"0"//"10"
 				"ypos"		"6"
 				"zpos"		"0"
 				"wide"		"f0"
@@ -120,8 +120,8 @@
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Casual_MapSelection"
 				"textAlignment"	"west"
-				"font"			"Black15"
-				"fgcolor_override"	"WhiteSolid"
+				"font"			"vBlack15"
+				"fgcolor_override"	"MainTextWhite"
 		
 				"mouseinputenabled"	"0"
 			}
@@ -130,7 +130,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"SelectedCount"
-				"xpos"		"10"
+				"xpos"		"0"//"10"
 				"ypos"		"18"
 				"zpos"		"0"
 				"wide"		"f0"
@@ -138,8 +138,8 @@
 				"proportionaltoparent"	"1"
 				"labeltext"		"%selected_maps_count%"
 				"textAlignment"	"west"
-				"font"			"Regular10"
-				"fgcolor_override"	"WhiteSolid"
+				"font"			"Regular9"
+				"fgcolor_override"	"SecondaryTextWhite"
 		
 				"mouseinputenabled"	"1"
 			}
@@ -159,7 +159,7 @@
 				"font"			"Regular10"
 				"fgcolor_override"	"WhiteSolid"
 				"textinsetx"	"5"
-				"visible"	"1"
+				"visible"	"0"
 		
 				"mouseinputenabled"	"0"
 			}
@@ -174,7 +174,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"BottomLine"	//Map selection border
+				"border"		"noBorder"	//Map selection border
 				"proportionaltoparent"	"1"
 			}
 			"InnerBG1"
@@ -189,7 +189,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"noBorder"
-				"bgcolor_override"	"35 35 35 255"
+				"bgcolor_override"	"blank"
 				"proportionaltoparent"	"1"
 			}
 			"GameModesList"
@@ -198,19 +198,19 @@
 				"fieldName"		"GameModesList"
 				"xpos"			"cs-0.5"
 				"ypos"			"35"
-				"wide"			"p0.95"
+				"wide"			"p1"//"p0.95"
 				"tall"			"p0.85"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"
 
-				"border"		"BlackTriggeredSolid"
+				"border"		"noBorder"
 
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-1"
+					"xpos"			"r4"
 					"ypos"			"0"
 					"tall"			"f0"
 					"wide"			"5" // This gets slammed from client schme.  GG.
@@ -220,7 +220,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"GreySolid"
+						"fgcolor_override"	"SecondaryTextWhite"
 					}
 		
 					"UpButton"
@@ -272,8 +272,8 @@
 
 	"SearchActiveGroupBox"
 	{
-		"xpos"		"c-300"
-		"ypos"		"r340"
+		"xpos"		"c20"
+		"ypos"		"62"
 		"wide"		"250"
 		"tall"		"285"
 		"proportionaltoparent"	"1"
@@ -286,34 +286,34 @@
 
 		"NearbyColumnHead"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"Bold9"
 			"xpos"		"rs1-90"
 			"proportionaltoparent"	"1"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"Bold9"
 			"xpos"		"rs1-10"
 			"proportionaltoparent"	"1"
 		}
 
 		"PlayersInGameLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"Bold9Bold"
 			"xpos"		"10"
 		}
 
 		"PlayersInGameTotalLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"Bold9"
 			"xpos"		"20"
 			"ypos"		"85"
 		}
 
 			"PlayersInGameTotalNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-90"
 				"ypos"		"85"
 				"proportionaltoparent"	"1"
@@ -321,7 +321,7 @@
 
 			"PlayersInGameTotalWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-10"
 				"ypos"		"85"
 				"proportionaltoparent"	"1"
@@ -329,14 +329,14 @@
 
 		"PlayersInGameMatchingLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"Bold9"
 			"xpos"		"20"
 			"ypos"		"97"
 		}
 
 			"PlayersInGameMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-90"
 				"ypos"		"97"
 				"proportionaltoparent"	"1"
@@ -344,7 +344,7 @@
 
 			"PlayersInGameMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-10"
 				"ypos"		"97"
 				"proportionaltoparent"	"1"
@@ -352,21 +352,21 @@
 
 		"PlayersSearchingLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"Bold9Bold"
 			"xpos"		"10"
 			"ypos"		"120"
 		}
 
 		"PlayersSearchingTotalLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"Bold9"
 			"xpos"		"20"
 			"ypos"		"135"
 		}
 
 			"PlayersSearchingTotalNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-90"
 				"ypos"		"135"
 				"proportionaltoparent"	"1"
@@ -374,7 +374,7 @@
 
 			"PlayersSearchingTotalWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-10"
 				"ypos"		"135"
 				"proportionaltoparent"	"1"
@@ -382,14 +382,14 @@
 
 		"PlayersSearchingMatchingLabel"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"Bold9"
 			"xpos"		"20"
 			"ypos"		"147"
 		}
 
 			"PlayersSearchingMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-90"
 				"ypos"		"147"
 				"proportionaltoparent"	"1"
@@ -397,7 +397,7 @@
 
 			"PlayersSearchingMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-10"
 				"ypos"		"147"
 				"proportionaltoparent"	"1"
@@ -405,14 +405,14 @@
 
 		"EmptyGameserversLabel"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"Bold9Bold"
 			"xpos"		"10"
 			"ypos"		"170"
 		}
 
 			"EmptyGameserversMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-90"
 				"ypos"		"170"
 				"proportionaltoparent"	"1"
@@ -420,7 +420,7 @@
 
 			"EmptyGameserversMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
+				"font"			"Bold9"
 				"xpos"		"rs1-10"
 				"ypos"		"170"
 				"proportionaltoparent"	"1"
@@ -445,7 +445,7 @@
 
 			"PartyHasLowPriorityLabel"
 			{
-				"font"		"HudFontSmallest"
+				"font"		"Bold9"
 				"xpos"		"60"
 				"ypos"		"0"
 				"zpos"		"2"
@@ -457,7 +457,7 @@
 
 			"PartyLowPriorityPenaltyTimer"
 			{
-				"font"		"HudFontSmallest"
+				"font"		"Bold9"
 				"xpos"		"60"
 				"ypos"		"rs1"
 				"wide"		"f0"

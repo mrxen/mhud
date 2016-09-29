@@ -10,34 +10,35 @@ Scheme
 
 		"Health"			"255 255 255 255"		// Health colour
 		"HealthShadow"		"0 0 0 255"				// Health shadow
-		"Buff"				"120 220 120 255"		// Buffed colour
+		"Buff"				"50 160 200 255"		// Buffed colour
 		"Hurt"				"255 47 47 255"			// Low health and ammo warning colour
 		"HealthBG"			"0 0 0 0"				// Health background
 		
-		"TargetIDHPBG"		"0 0 0 255"				// Target ID health background
-		"TargetIDBG"		"255 255 255 200"		// Target ID background
-		"TargetName"		"0 0 0 255"				// Target ID name
+		"TargetIDHPBG"		"35 35 35 255"			// Target ID health background
+		"TargetIDBG"		"35 35 35 255"			// Target ID background
+		"TargetName"		"255 255 255 255"		// Target ID name
 		"TargetData"		"255 255 255 255"		// Target ID data label
 		"TargetDataBG"		"0 0 0 0"				// Target ID data label background
 		"TargetHP"			"0 0 0 255"				// Target ID health
+		"TargetHPShadow"	"0 0 0 255"				// Target ID health shadow
 
-		"Ammo"              "255 255 255 225"		// Current Clip
-		"AmmoReserve"       "0 255 255 255"			// Total reserve	
-		"AmmoShadow"		"0 0 0 255"				// Ammo shadow
+		"Ammo"              "255 255 255 225"		// Current clip
+		"AmmoShadow"		"0 0 0 255"				// Current clip shadow
+		"AmmoReserve"       "0 200 255 255" 		// Ammo reserve	
 		"AmmoReserveShadow"	"0 0 0 255"				// Ammo reserve shadow
-		"AmmoBG"			"0 0 0 0"				// Ammo box background
-		"LowAmmo"			"255 47 47 255"			// Low ammo background
+		"LowAmmo"			"255 47 47 255"			// Ammo background
+		"AmmoBG"			"0 0 0 0"				// Low ammo box background
 
 		"DamageText"		"255 200 0 255"			// Damage text colour
 		"HealText"			"100 255 100 255"		// Heal text colour
 		"EventText"			"255 20 200 255"		// Event text colour
 
 		"MeterBg"			"0 0 0 100"				// Meter background
-		"MeterFg"			"0 200 200 255"			// Meter text
+		"MeterFg"			"0 200 255 255"			// Meter text
 		"MeterFg1"			"80 220 80 255"			// Primary meter text
-		"MeterFg2"			"60 160 255 255"		// Secondary meter text
+		"MeterFg2"			"0 200 255 255"			// Secondary meter text
 		"MeterFg3"			"230 40 40 255"			// Tertiary meter text
-		"CritText"			"0 200 200 255"			// Itemeffectmeter text
+		"CritText"			"255 255 255 255"		// Itemeffectmeter text
 		"CritTextShadow"	"0 0 0 255"				// Itemeffectmeter text shadow
 		"CritDesc"			"255 255 255 255"		// Itemeffectmeter text description
 		"CritDescShadow"	"0 0 0 255"				// Itemeffectmeter text description shadow
@@ -45,16 +46,60 @@ Scheme
 
 		"HudBGStatus"		"0 0 0 0"				// Transparent BG for HP/Ammo boxes
 			
-		"Select"			"43 43 42 255"			// Dark grey for default buttons	
-		"ButtonBG"			"35 33 32 255"			// Darker grey for armed buttons
-		"ButtonBGT"			"35 33 32 220"			// Transparent darker grey
-		"ButtonBGD"			"25 23 22 255"			// Darkest grey for armed buttons
-		"Highlight"			"226 180 20 255"		// Gold colour for hovering over buttons
-		"Highlight2"		"117 226 20 255"		// Green colour for hovering over buttons		
-
-		"StatSummaryBars"	"20 150 230 130"		// Bar colour in statsummary and statsummary_embedded
+		"StatSummaryBars"	"20 200 255 130"		// Bar colour in statsummary and statsummary_embedded
 		
 		"ScoresBG"			"35 35 35 250"			// Player list background for scoreboard
+		
+
+		// UI Colour scheme
+		
+
+		"MainText"				"0 0 0 234"
+		"SecondaryText"			"0 0 0 208"
+		"DisabledText"			"0 0 0 108"
+		
+		"MainTextWhite"			"255 255 255 244"
+		"SecondaryTextWhite"	"255 255 255 208"
+		"DisabledTextWhite"		"255 255 255 108"
+		
+		"UIMeter"				"255 64 129 255"
+		"UIMeterBg"				"255 255 255 255"
+		"UIMeterProgress"		"240 98 146 255"
+		
+		"UIHighlight"			"233 30 99 255"
+		"UIHighlight2"			"255 64 129 255"
+
+		"Icon"					"255 255 255 255"
+		"IconHighlight"			"255 255 0 255"
+		
+		"b50"					"227 242 253 255"
+		"b100"					"187 222 251 255"
+		"b200"					"144 202 249 255"
+		"b300"					"100 181 246 255"
+		"b400"					"66 165 245 255"
+		"b500"					"33 150 243 255"
+		"b600"					"30 136 229 255"
+		"b700"					"25 118 210 255"
+		"b800"					"21 101 192 255"
+		"b900"					"13 71 161 255"
+		
+		"Select"			"0 0 0 200"			// Dark grey for default buttons	
+//		"ButtonBGT"			"35 33 32 220"			// Transparent darker grey
+//		"ButtonBGD"			"25 23 22 255"			// Darkest grey for armed buttons
+		"Highlight"			"226 180 20 255"		// Gold colour for hovering over buttons
+		"Highlight2"		"0 255 100 255"			// Green colour for hovering over buttons		
+
+		
+		"ButtonFg"				"255 255 255 208"		// Button text
+		"ButtonFgSelected"		"255 255 255 255"		// Button text selected
+		"ButtonFgArmed"			"255 255 255 255"		// Button text hover
+		"ButtonFgDepressed"		"255 255 255 208"		// Button text clicked	
+
+		
+		"ButtonBg"				"0 0 0 150"				// Button background
+		"ButtonBgSelected"		"130 80 0 230"			// Button background selected
+		"ButtonBgArmed"			"130 80 0 230"			// Button background hover
+		"ButtonBgDepressed"		"0 0 0 150"				// Button background clicked
 		
 		"RedSolid"			"230 40 50 255"			// Red
 		"Red"				"230 40 50 255"			// Red
@@ -121,40 +166,13 @@ Scheme
 		"Grey50"			"167 167 167 50"		// Grey50
 		
 		"WhiteSolid"		"255 255 255 255"		// White
+		"White"				"255 255 255 255"		// White
 		"White200"			"255 255 255 200"		// White200
 		"White175"			"255 255 255 175"		// White175
 		"White150"			"255 255 255 150"		// White150
 		"White100"			"255 255 255 100"		// White100
 		"White50"			"255 255 255 50"		// White50
 
-		// UI Colour scheme
-		
-
-		"MainText"				"0 0 0 234"
-		"SecondaryText"			"0 0 0 208"
-		"DisabledText"			"0 0 0 108"
-		
-		"MainTextWhite"			"255 255 255 234"
-		"SecondaryTextWhite"	"255 255 255 208"
-		"DisabledTextWhite"		"255 255 255 108"
-		
-		"UIMeter"				"255 64 129 255"
-		"UIMeterBg"				"255 255 255 255"
-		"UIMeterProgress"		"240 98 146 255"
-		
-		"UIHighlight"			"233 30 99 255"
-		"UIHighlight2"			"255 64 129 255"
-		
-		"b50"					"227 242 253 255"
-		"b100"					"187 222 251 255"
-		"b200"					"144 202 249 255"
-		"b300"					"100 181 246 255"
-		"b400"					"66 165 245 255"
-		"b500"					"33 150 243 255"
-		"b600"					"30 136 229 255"
-		"b700"					"25 118 210 255"
-		"b800"					"21 101 192 255"
-		"b900"					"13 71 161 255"
 
 		// More options, partially for custom options like the line-effect or the colourful main-menu
 		
@@ -182,26 +200,14 @@ Scheme
 //		"Green"				"21 207 100 255" 			//Green on black BG		
 		"GreenST"			"25 225 74 175"
 		"GreenT"			"25 225 74 105"
-		
-		"GreenDark"			"0 124 88 255"				//Green for white highlights
-		
-		"White"				"255 255 255 175"			//Transparent white for text
+				
 		"WhiteS"			"225 225 225 255"			//Matching solid white
 		
 		"RedTeam" 			"189 59 59 120"				//Team fill colors transparent
 		"BlueTeam"			"45 97 124 120"			//
 		"RedTeamS" 			"189 59 59 255"				//
 		"BlueTeamS"			"45 97 124 255"			//Team fill colors solid
-		
-		"LightGray"			"212 212 212 255"
-		"Gray"				"165 165 165 255"		
-		
-		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
-		
-		"WhiteBGT"			"255 255 255 85"			//Used for demo stick counter
-		"HudBGT"			"0 0 0 175"				//
-		
-		
+
 		// Base Colors TF2
 
 		"Orange"			"239 152 73 255"
@@ -217,12 +223,13 @@ Scheme
 		"QuestStandardHighlight"	"0 255 0 255"
 		"QuestBonusHighlight"		"150 160 255 255"		
 
-		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
-		"Blue"				"104 124 155 175"		//0 28 162 140"
+//		"Red"				"192 28 0 140"
+//		"RedSolid"			"192 28 0 255"
+//		"Blue"				"104 124 155 175"		//0 28 162 140"
 		"Yellow"			"225 225 225 255"
-		"TransparentYellow"	"255 255 255 140"
-		"GreenSolid"		 "76 107 34 255"
+		"TransparentYellow"	"220 220 52 140"
+//		"GreenSolid"		"76 107 34 255"
+		"White"				"255 255 255 255"
 		
 		"Black"				"0 0 0 255"
 		"TransparentBlack"	"0 0 0 196"
@@ -262,9 +269,9 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 212 212 255"
 		
-		"TanDark"				"110 110 110 255"
-		"TanLight"				"221 221 221 255"
-		"TanDarker"				"42 42 42 255"
+		"TanDark"				"255 255 255 208"
+		"TanLight"				"255 255 255 244"
+		"TanDarker"				"0 0 0 200"
 		
 		"StoreDarkTan"			"121 121 121 255"
 		"StoreGreen"			"76 107 34 255"

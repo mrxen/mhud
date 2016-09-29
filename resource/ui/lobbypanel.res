@@ -586,7 +586,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PartyActiveGroupBox"
-		"xpos"			"c+100"
+		"xpos"			"c-100"
 		"ypos"		"10"
 		"zpos"		"1"
 		"wide"		"200"

@@ -2244,33 +2244,33 @@ Scheme
 		QuickplayBorder
 		{
 			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "TanDark"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "TanDark"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "TanDark"
-					"offset" "0 0"
-				}
-			}
-
+//			Left
+//			{
+//				"1"
+//				{
+//					"color" "TanDark"
+//					"offset" "0 1"
+//				}
+//			}
+//
+//			Right
+//			{
+//				"1"
+//				{
+//					"color" "TanDark"
+//					"offset" "1 0"
+//				}
+//			}
+//
+//			Top
+//			{
+//				"1"
+//				{
+//					"color" "TanDark"
+//					"offset" "0 0"
+//				}
+//			}
+//
 			Bottom
 			{
 				"1"
@@ -2502,7 +2502,31 @@ Scheme
 			"src_corner_width"		"5"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
-		}	
+		}
+		OuterShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
+		OuterShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
 //////////////////////// CUSTOM BORDERS ////////////////////////
 		BlackBoxBorder
 		{

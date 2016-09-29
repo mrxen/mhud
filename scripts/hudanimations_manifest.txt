@@ -1,9 +1,19 @@
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
-//	"file"		"scripts/health/box.txt"
+	
+//	Health + Ammo	
+	
+	"file"		"scripts/health/box.txt"
 //	"file"		"scripts/health/cross.txt"
-	"file"		"scripts/health/color.txt"
+//	"file"		"scripts/health/color.txt"
+	
+//	TargetID Health
+	
+	"file"		"scripts/targetid/box.txt"
+//	"file"		"scripts/targetid/cross.txt"
+//	"file"		"scripts/targetid/color.txt"
+	
 	"file"		"scripts/hudanimations_mhud.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }

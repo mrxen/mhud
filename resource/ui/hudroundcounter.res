@@ -15,37 +15,38 @@
 		"starting_width"	"20"
 		"width_per_round"	"24"
 		"indicator_start_offset"	"0"
-		"indicator_max_wide"	"40"
+		"indicator_max_wide"	"36"
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"				"1"
-			"wide"				"4"
+			"ypos"				"0"
+			"wide"				"6"
 			"tall"				"4"
-			"zpos"				"7"
+			"zpos"				"6"
 			"image"				"replay/thumbnails/bg/bg_solid"
+			"drawcolor"			"WhiteSolid"
 			"scaleimage"		"1"
 		}
 
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"				"1"
+			"ypos"				"0"
 			"wide"				"4"
-			"tall"				"4"
+			"tall"				"3"
 			"zpos"				"7"
 			"image"				"replay/thumbnails/bg/bg_solid"
-			"drawcolor"			"White100"
+			"drawcolor"			"Red"
 			"scaleimage"		"1"
 		}
 
 		"RoundWinPanelBlue_kv"
 		{
-			"ypos"				"1"
+			"ypos"				"0"
 			"wide"				"4"
-			"tall"				"4"
+			"tall"				"3"
 			"zpos"				"7"
 			"image"				"replay/thumbnails/bg/bg_solid"
-			"drawcolor"			"White100"
+			"drawcolor"			"Blue"
 			"scaleimage"		"1"
 		}
 	}	

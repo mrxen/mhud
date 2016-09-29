@@ -52,7 +52,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"vBlack12"
-		"fgcolor"				"CritDesc"
+		"fgcolor"				"CritDescShadow"
 	}
 	"ItemEffectMeterCount"
 	{
@@ -110,5 +110,5 @@
 		"enabled"				"0"
 		"textAlignment"			"Left"
 		"dulltext"				"0"
-		
+	}
 }

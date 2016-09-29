@@ -286,6 +286,50 @@
 			}
 		}
 	}
+	"BlueBg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGBlack"
+		"xpos"			"cs-1-38"
+		"ypos"			"-24"
+		"zpos"			"-2"
+		"wide"			"136"
+		"tall"			"45"
+		"backgroundtype"		"2"
+		"proportionaltoparent"	"1"
+		"image"					"replay/thumbnails/mMenu/casual/RCBackground"
+		"drawcolor"				"35 35 35 255"
+		"scaleimage"			"1"
+		"visible"				"0"
+		"enabled"				"1"
+
+		if_match
+		{
+		"visible"		"0"
+		}
+	}
+	"RedBg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGBlack"
+		"xpos"			"cs-0+38"
+		"ypos"			"-24"
+		"zpos"			"-2"
+		"wide"			"136"
+		"tall"			"45"
+		"backgroundtype"		"2"
+		"proportionaltoparent"	"1"
+		"image"					"replay/thumbnails/mMenu/casual/RCBackground"
+		"drawcolor"				"35 35 35 255"
+		"scaleimage"			"1"
+		"visible"				"0"
+		"enabled"				"1"
+		
+		if_match
+		{
+		"visible"		"0"
+		}
+	}
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"

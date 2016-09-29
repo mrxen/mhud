@@ -3179,6 +3179,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"55"
 				"antialias"	"1"
+				"additive"	"0"
 			}
 		}
 		"HealthMinmode"
@@ -3188,6 +3189,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"44"
 				"antialias"	"1"
+				"additive"	"0"
 			}
 		}
 		"HealthShadow"
@@ -3217,6 +3219,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"55"
 				"antialias"	"1"
+				"additive"	"0"
 			}
 		}
 		"AmmoMinmode"
@@ -3226,6 +3229,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"44"
 				"antialias"	"1"
+				"additive"	"0"
 			}
 		}
 		"AmmoShadow"
@@ -3253,8 +3257,9 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"30"
+				"tall"		"28"
 				"antialias"	"1"
+				"additive"	"0"
 			}
 		}
 		"AmmoReserveMinmode"
@@ -3264,6 +3269,7 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"24"
 				"antialias"	"1"
+				"additive"	"0"
 			}
 		}
 		"AmmoReserveShadow"
@@ -3271,7 +3277,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"30"
+				"tall"		"28"
 				"antialias"	"1"
 				"blur"		"0"
 			}

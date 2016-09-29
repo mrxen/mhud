@@ -47,10 +47,10 @@
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
+			"ypos"			"cs-0.5+10"
 			"zpos"			"0"		
 			"wide"			"o1"
-			"tall"			"200"
+			"tall"			"150"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -152,21 +152,7 @@
 			"backgroundenabled"	"0"
 		}
 	}
-    "BGPanelShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGPanelShadow"
-		"xpos"			"cs-0.5+10"
-		"ypos"			"cs-0.5+10"
-		"zpos"			"-2"
-		"wide"			"625"
-		"tall"			"90"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/mMenu/lobby/pvprankpanel"
-		"drawcolor"		"blank"
-		"scaleImage"	"1"
-	}	
+	
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -178,8 +164,8 @@
 		"tall"			"70"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"b400"
-		"border"		"noborder"
+		"bgcolor_override"	"35 35 35 255"
+		"border"		"BottomLine"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -188,7 +174,6 @@
 			"tall"			"35"
 			"wide"			"505"
 		}
-
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -228,7 +213,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%level%"
 					"proportionaltoparent"	"1"
@@ -245,7 +230,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -262,7 +247,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
@@ -352,9 +337,6 @@
 					"border"		"noBorder"
 					"fillcolor"		"b300"
 				}
-
-
-	
 				// First column
 				"GamesLabel"
 				{
@@ -368,7 +350,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
@@ -386,7 +368,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_kills%"
 					"proportionaltoparent"	"1"
@@ -404,7 +386,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
@@ -423,7 +405,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
 					"proportionaltoparent"	"1"
@@ -441,7 +423,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
 					"proportionaltoparent"	"1"
@@ -459,7 +441,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
 					"proportionaltoparent"	"1"
@@ -478,7 +460,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"Bold9"
-					"fgcolor_override"	"MainText"
+					"fgcolor_override"	"MainTextWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"

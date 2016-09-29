@@ -45,8 +45,9 @@
 
 event DamagedPlayer
 {
-	Animate KnuckesCrosses	FgColor		"255 0 0 255"	Linear 0.0 0.00001
-	Animate KnucklesCrosses	FgColor		"WhiteS"		Linear 0.20 0.10001
+//	Animate Crosshair FgColor "255 0 0 255"			Linear 0.0 0.0
+//	Animate Crosshair FgColor "255 255 255 255"		Linear 0.0 0.5
+
 
 	Runevent ScopeRemoval 0.0
 }
@@ -62,62 +63,62 @@ Animate HudScope Position	"9999 9999" Linear 0.0 0.0
 event MMenu_PlayList_Expand
 {
 //	Animate MainDropdown	ypos	300			Spline		0.0 0.25
-	FireCommand 0 "soundentry Panel.SlideDown"
+//	FireCommand 0 "soundentry Panel.SlideDown"
 	
-	Animate CasualButton				ypos	-26			Spline		0.0 0.25
-	Animate CompetitiveButton			ypos	-26			Spline		0.0 0.25
-	Animate ServerBrowserButton			ypos	-26			Spline		0.0 0.25
-	Animate MvMButton					ypos	-26			Spline		0.0 0.25
+//	Animate CasualButton				ypos	-26			Spline		0.0 0.25
+//	Animate CompetitiveButton			ypos	-26			Spline		0.0 0.25
+//	Animate ServerBrowserButton			ypos	-26			Spline		0.0 0.25
+//	Animate MvMButton					ypos	-26			Spline		0.0 0.25
 
-	Animate CharacterSetupButton		ypos	-26			Spline		0.0 0.25
-	Animate GeneralStoreButton			ypos	-26			Spline		0.0 0.25
-	Animate SettingsButton				ypos	-26			Spline		0.0 0.25
-	Animate Tf2SettingsButton			ypos	-26			Spline		0.0 0.25
+//	Animate CharacterSetupButton		ypos	-26			Spline		0.0 0.25
+//	Animate GeneralStoreButton			ypos	-26			Spline		0.0 0.25
+//	Animate SettingsButton				ypos	-26			Spline		0.0 0.25
+//	Animate Tf2SettingsButton			ypos	-26			Spline		0.0 0.25
 
-	Animate OpenMainMenuButton			ypos	-41			Spline		0.0 0.25
+//	Animate OpenMainMenuButton			ypos	-41			Spline		0.0 0.25
 //	Animate OpenMainMenuButtonMin		ypos	r12			Spline		0.0 0.25
-	Animate Top							ypos	-100		Spline		0.0 0.25
+//	Animate Top							ypos	-100		Spline		0.0 0.25
 
 }
 
 event MMenu_PlayList_Collapse
 {
 //	Animate MainDropdown	ypos	0			Spline		0.0 0.25
-	FireCommand 0 "soundentry Panel.SlideUp"
+//	FireCommand 0 "soundentry Panel.SlideUp"
 
-	Animate CasualButton				ypos	0			Spline		0.0 0.25
-	Animate CompetitiveButton			ypos	0			Spline		0.0 0.25
-	Animate ServerBrowserButton			ypos	0			Spline		0.0 0.25
-	Animate MvMButton					ypos	0			Spline		0.0 0.25
+//	Animate CasualButton				ypos	0			Spline		0.0 0.25
+//	Animate CompetitiveButton			ypos	0			Spline		0.0 0.25
+//	Animate ServerBrowserButton			ypos	0			Spline		0.0 0.25
+//	Animate MvMButton					ypos	0			Spline		0.0 0.25
 
-	Animate CharacterSetupButton		ypos	0			Spline		0.0 0.25
-	Animate GeneralStoreButton			ypos	0			Spline		0.0 0.25
-	Animate SettingsButton				ypos	0			Spline		0.0 0.25
-	Animate Tf2SettingsButton			ypos	0			Spline		0.0 0.25
+//	Animate CharacterSetupButton		ypos	0			Spline		0.0 0.25
+//	Animate GeneralStoreButton			ypos	0			Spline		0.0 0.25
+//	Animate SettingsButton				ypos	0			Spline		0.0 0.25
+//	Animate Tf2SettingsButton			ypos	0			Spline		0.0 0.25
 
-	Animate OpenMainMenuButton			ypos	3			Spline		0.0 0.25
+//	Animate OpenMainMenuButton			ypos	3			Spline		0.0 0.25
 //	Animate OpenMainMenuButtonMin		ypos	r0			Spline		0.0 0.25
 
-	Animate Top							ypos	-70			Spline		0.0 0.25
+//	Animate Top							ypos	-70			Spline		0.0 0.25
 }
 
 event MMenu_PlayList_Collapse_Immediate
 {
-	Animate CasualButton				ypos	0			Spline		0.0 0.25
-	Animate CompetitiveButton			ypos	0			Spline		0.0 0.25
-	Animate ServerBrowserButton			ypos	0			Spline		0.0 0.25
-	Animate MvMButton					ypos	0			Spline		0.0 0.25
+//	Animate CasualButton				ypos	0			Spline		0.0 0.25
+//	Animate CompetitiveButton			ypos	0			Spline		0.0 0.25
+//	Animate ServerBrowserButton			ypos	0			Spline		0.0 0.25
+//	Animate MvMButton					ypos	0			Spline		0.0 0.25
 	
-	Animate CharacterSetupButton		ypos	0			Spline		0.0 0.25
-	Animate GeneralStoreButton			ypos	0			Spline		0.0 0.25
-	Animate SettingsButton				ypos	0			Spline		0.0 0.25
-	Animate Tf2SettingsButton			ypos	0			Spline		0.0 0.25
+//	Animate CharacterSetupButton		ypos	0			Spline		0.0 0.25
+//	Animate GeneralStoreButton			ypos	0			Spline		0.0 0.25
+//	Animate SettingsButton				ypos	0			Spline		0.0 0.25
+//	Animate Tf2SettingsButton			ypos	0			Spline		0.0 0.25
 
-	Animate OpenMainMenuButton			ypos	3			Spline		0.0 0.25
+//	Animate OpenMainMenuButton			ypos	3			Spline		0.0 0.25
 //	Animate OpenMainMenuButtonMin		ypos	r0			Spline		0.0 0.25
 
 //	Animate	OpenMainMenuButton			wide	20			Spline		0.0 0.25
-	Animate Top							ypos	-70			Spline		0.0 0.25
+//	Animate Top							ypos	-70			Spline		0.0 0.25
 }
 //===========================================
 //Health Bonus Pulse
@@ -130,7 +131,11 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthValueTargetIDBoxWhite	FgColor	"WhiteSolid"	Accel 0.0 0.0
 
 	RunEvent	BonusHealth	0.0
+	RunEvent	BonusTarget	0.0
+
 	Stopevent	ClearHealth	0.0
+	Stopevent	ClearTarget	0.0
+
 }
 event HudHealthBonusPulseStop
 {
@@ -141,7 +146,10 @@ event HudHealthBonusPulseStop
 	Animate	PlayerStatusHealthValueTargetIDBoxWhite	FgColor	"BlackSolid"	Accel 0.0 0.0
 	
 	Stopevent	BonusHealth	0.0
+	Stopevent	BonusTarget	0.0
+
 	RunEvent	ClearHealth	0.0
+	RunEvent	ClearTarget	0.0
 }
 
 //===========================================
@@ -152,13 +160,14 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueCam 				FgColor	"Low"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 			FgColor	"WhiteS"	    Accel 0.0 0.0
 	Animate	TargetHPBGTournament 					BgColor	"Hurt"	    Accel 0.0 0.0
-	
+
 	RunEvent	LowHealth	0.0
+	RunEvent	LowTarget	0.0
+
 	Stopevent	ClearHealth	0.0
-	
+	Stopevent	ClearTarget	0.0
+
 	animate 	PlayerStatusHealthImageBG2 tall 20	accel 0.0 2
-
-
 }
 
 event HudHealthDyingPulseStop
@@ -168,7 +177,10 @@ event HudHealthDyingPulseStop
 	Animate	TargetHPBGTournament 			BgColor		"HudBGStatus"		Accel 0.0 0.0			
 	
 	Stopevent	LowHealth	0.0
-	Runevent	ClearHealth	0.0
+	Stopevent	LowTarget	0.0
+
+	RunEvent	ClearHealth	0.0
+	RunEvent	ClearTarget	0.0
 	
 }
 
@@ -177,12 +189,11 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {	
 	Stopevent	ClearAmmo 0.0
-	RunEvent LowAmmo	0.0	
+	RunEvent	LowAmmo	0.0	
 }
 event HudLowAmmoPulseStop
-{
-	
-	StopEvent LowAmmo 0.0
+{	
+	StopEvent	LowAmmo 0.0
 	RunEvent	ClearAmmo 0.0
 }
 
@@ -285,14 +296,6 @@ event TeamStatus_PlayerAlive
 	SetVisible SkullPanel  0 0.2
 	SetVisible respawntime 0 0.2
 }
-event PvPRankLevelUpXPBar
-{
-	Animate ContinuousProgressBar BgColor UIMeterProgress Linear 0.0 0.1
-	Animate ContinuousProgressBar BgColor UIMeterProgress Linear 0.1 0.3
-
-	Animate LevelLabel FgColor "100 255 100 255"	Linear 0.0 0.1
-	Animate LevelLabel FgColor WhiteSolid			Linear 4.0 0.3 
-}
 
 event CompetitiveGame_LowerChatWindow
 {
@@ -310,3 +313,52 @@ event HudTournament_MoveChatWindow
 	RunEvent CompetitiveGame_RestoreChatWindow 10
 }
 //--------------------------------------------------------------------------
+event PvPRankModelClicked
+{
+	RunEventChild AboveModelParticlePanel StartParticle1 0
+}
+
+event PvPRankLevelUpXPBar
+{
+	Animate ContinuousProgressBar BgColor "100 255 100 255" Linear 0.0 0.1
+	Animate ContinuousProgressBar BgColor ProgressBackground Linear 0.1 0.3
+
+	Animate LevelLabel FgColor "100 255 100 255"	Linear 0.0 0.1
+	Animate LevelLabel FgColor WhiteSolid			Linear 4.0 0.3 
+}
+
+event PvPRankLevelUpModel
+{
+	RunEventChild BelowModelParticlePanel StartParticle0 1.0
+	RunEventChild AboveModelParticlePanel StartParticle0 1.0
+
+	PlaySound 0 "ui/mm_medal_spin_hit.wav"
+}
+
+event PvPRankLevelDownXPBar
+{
+	Animate ContinuousProgressBar FgColor "255 100 100 255" Linear 0.0 0.1
+	Animate ContinuousProgressBar FgColor CreditsGreen	 	Linear 0.1 0.3
+
+	Animate LevelLabel FgColor "255 100 100 255"	Linear 0.0 0.1
+	Animate LevelLabel FgColor WhiteSolid			Linear 4.0 0.3 
+}
+
+event PvPRankLevelDownModel
+{
+	RunEventChild AboveModelParticlePanel StartParticle2 0.15
+	PlaySound 0 "ui/mm_rank_down_medal_shoot.wav"
+	PlaySound 0.15 "ui/mm_rank_down_medal_shoot_impact.wav"
+}
+
+event CompetitiveGame_ShowPvPRankPanel
+{
+	Animate RankPanel ypos r0 Linear 0 0
+	Animate RankPanel ypos r295 Bias 0.90 0.2 0.3
+	RunEventChild RankPanel PvPRankPanelShowXPChange 1
+}
+
+event PvPRankPanelShowXPChange
+{
+	FireCommand 0 "begin_xp_lerp"
+}

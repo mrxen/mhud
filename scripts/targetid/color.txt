@@ -1,0 +1,15 @@
+event BonusTarget
+{
+	Animate	TargetIDHealthValue 	  			FgColor		"Buff"				Accel 0.0 0.0
+   	Animate	TargetIDHealthValueShadow			FgColor		"HealthShadow"		Accel 0.0 0.0
+}
+event LowTarget
+{
+	Animate	TargetIDHealthValue		 	    	FgColor		"Hurt"				Accel 0.0 0.0
+   	Animate	TargetIDHealthValueShadow			FgColor		"HealthShadow"	   	Accel 0.0 0.0
+}
+event ClearTarget
+{
+	Animate	TargetIDHealthValue		 	    	FgColor		"WhiteSolid"		Accel 0.0 0.0
+   	Animate	TargetIDHealthValueShadow			FgColor		"HealthShadow"	   	Accel 0.0 0.0
+}

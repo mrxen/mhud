@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\images\LobbyContainerFrame\soldier_fullscreen.vtf"
+	"$ignorez" "1"
+}

@@ -2,12 +2,10 @@
 
 "Resource/UI/LobbyContainerFrame_Comp.res"
 {
-//	"StartPartyButton"
-//	{
-//		//"xpos"			"c+120"
-//		"ypos"			"380"
-//	}
-
+	"Label"
+	{
+		"labeltext"		"Comp"
+	}
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"

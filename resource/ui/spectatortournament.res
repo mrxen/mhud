@@ -229,44 +229,25 @@
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
-				"fieldName"	"respawntime"
-				"font"		"Bold9"		//9
-				"xpos"			"2"
-				"ypos"			"1"
+				"fieldName"		"respawntime"
+				"font"			"Bold12"
+				"xpos"			"30"
+				"ypos"			"18"
 				"zpos"			"5"
 				"wide"			"23"
-				"tall"			"13"
+				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"center"
-				"fgcolor"		"White"
-
+				"textAlignment"	"west"
+				"fgcolor"		"235 226 202 255"
+				
 				if_mvm
 				{
-					"visible"		"1"
+					"ypos"			"17"
 				}
 			}
-
-			"respawntimecover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntimecover"
-				"font"			"BlocksSharp64"
-				"xpos"			"135"
-				"ypos"			"3"
-				"zpos"			"5"
-				"wide"			"34"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"east"
-				"fgcolor"		"WhiteS"
-			}
-			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"

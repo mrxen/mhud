@@ -62,12 +62,12 @@
 		"OnlyInGame"	"1"
 		"subimage" "replay/thumbnails/bg/bg_circle"
 	}
-	"MainMenuBg"
+	"mMenuBg"
 	{
-		"OnlyAtMenu" "1"
-		"label"		""
-		"command"	"0"
+		"label"	" "
+		"command" " "
 		"subimage"	"replay/thumbnails/bg/bg_solid"
+		"OnlyAtMenu" "1"
 	}
 	"InGameBg"
 	{
@@ -107,7 +107,14 @@
 		"label" "Casual"
 		"command" "play_casual"
 		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "0"
+		"OnlyAtMenu" "1"
+	}
+	 "CasualButtonInGame"
+	{
+		"label" "Casual"
+		"command" "play_casual"
+		"subimage" "replay/thumbnails/bg/bg_solid"
+		"OnlyInGame" "1"
 	}
 	"CompetitiveButton"
 	{

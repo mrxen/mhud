@@ -1,0 +1,13 @@
+event BonusTarget
+{   	
+   	Animate	TargetIDBGmhud	BgColor		"Buff"				Accel 0.0 0.0 	
+}
+event LowTarget
+{
+   	Animate	TargetIDBGmhud	BgColor		"Hurt"				Accel 0.0 0.0
+}
+
+Event ClearTarget
+{
+   	Animate	TargetIDBGmhud	BgColor		"TargetIDHPBG"		Accel 0.0 0.0
+}

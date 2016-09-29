@@ -38,34 +38,32 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"67 67 67 255"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"50 50 50 255"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"50 50 50 255"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"50 50 50 255"
+		Button.TextColor				"ButtonFg"
+		Button.BgColor					"ButtonBg"
+		Button.ArmedTextColor			"ButtonFgArmed"
+		Button.ArmedBgColor				"ButtonBgArmed"
+		Button.SelectedTextColor		"ButtonFgSelected"
+		Button.SelectedBgColor			"ButtonBgSelected"
+		Button.DepressedTextColor		"ButtonFgDepressed"
+		Button.DepressedBgColor			"ButtonBgDepressed"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.TextColor			"SecondaryTextWhite"
+		CheckButton.SelectedTextColor	"MainTextWhite"
+		CheckButton.BgColor				"Black150"
+		CheckButton.Border1  			"SecondaryTextWhite" 		// the left checkbutton border
+		CheckButton.Border2  			"SecondaryTextWhite"		// the right checkbutton border
+		CheckButton.Check				"WhiteSolid"		// color of the check itself
+		CheckButton.HighlightFgColor	"MainTextWhite"
 		
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
+		ComboBoxButton.ArrowColor		"WhiteSolid"
+		ComboBoxButton.ArmedArrowColor	"WhiteSolid"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		Frame.BgColor					"TransparentBlack"
-		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[!$OSX] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[!$OSX] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.BgColor					"Black200"
+		Frame.OutOfFocusBgColor			"Black200"
+		Frame.FocusTransitionEffectTime	"0.0"	// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -85,10 +83,10 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
-		Label.SelectedTextColor			"White"
+		Label.TextDullColor				"SecondaryTextWhite"
+		Label.TextColor					"MainTextWhite"
+		Label.TextBrightColor			"WhiteSolid"
+		Label.SelectedTextColor			"WhiteSolid"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
@@ -116,8 +114,8 @@ Scheme
 		ProgressBar.FgColor				"ProgressOffWhite"
 		ProgressBar.BgColor				"ProgressBackground"
 
-		CircularProgressBar.FgColor		"White"
-		CircularProgressBar.BgColor		"White"
+		CircularProgressBar.FgColor		"WhiteSolid"
+		CircularProgressBar.BgColor		"WhiteSolid"
 		
 		"BuildingHealthBar.BgColor"		"HealthBgGrey"
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
@@ -154,13 +152,13 @@ Scheme
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"White50"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.NobColor				"BlackTriggered200"
+		Slider.TextColor			"Grey200"
+		Slider.TrackColor			"Black200"
+		Slider.DisabledTextColor1	"Grey200"
+		Slider.DisabledTextColor2	"Black200"
 
 		TextEntry.TextColor			"Gray"
 		TextEntry.BgColor			"Blank"
@@ -223,17 +221,17 @@ Scheme
 		"SelectionSelectedBoxBg" "0 0 0 190"
 
 		// Hint message colors
-		"HintMessageFg"			"255 255 255 255"
+		"HintMessageFg"			"WhiteSolid"
 		"HintMessageBg" 		"0 0 0 60"
 
-		"ProgressBarFg"			"255 30 13 255"
+		"ProgressBarFg"			"UIMeterProgress"	//"255 30 13 255"
 
 		// Top-left corner of the menu on the main screen
-		"Main.Menu.X"		"32"
-		"Main.Menu.Y"		"248"
+		"Main.Menu.X"		"0"
+		"Main.Menu.Y"		"0"
 
 		// Blank space to leave beneath the menu on the main screen
-		"Main.BottomBorder"	"32"
+		"Main.BottomBorder"	"0"
 		
 		"VguiScreenCursor"			"255 208 64 255"
 	}

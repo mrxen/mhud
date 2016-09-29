@@ -1,26 +1,44 @@
 #base "LobbyContainerFrame.res"
 
-"Resource/UI/LobbyContainerFrame_Casual.res"
+"Resource/UI/LobbyContainerFrame_casual.res"
 {
-//	"StartPartyButton"
-//	{
-//		"xpos"			"c+120"
-//		"ypos"			"380"
-//	}
+	"Label"
+	{
+		"labeltext"		"Casual"
+	}
+	"ModeBackgroundImagemhud"
+	{
+		"image"			"replay/thumbnails/images/lobbycontainerframe/soldier_fullscreen"
+	}
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"-160"
+		"xpos"			"2"
+		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"p1"
+		"tall"			"p1"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
+		"xp_source_notification_center_x"	"350"
+	}
+
+	"SearchStatus"
+	{
+		"ControlName"	"CTFMatchMakingSearchStatusPanel"
+		"FieldName"		"SearchStatus"
+		"xpos"			"cs-0.5"
+		"ypos"			"-5"
+		"zpos"			"10000"
+		"wide"			"150"
+		"tall"			"65"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled" "1"
 	}
 	"ShowExplanationsButton"
 	{
@@ -29,7 +47,7 @@
 		"xpos"			"c275"
 		"ypos"			"10"
 		"zpos"			"100"
-		"wide"			"20"
+		"wide"			"0"//"20"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"

@@ -48,7 +48,7 @@
 		"IconScale"	  "1"
 		"LineHeight"	  "13"
 		"LineSpacing"	  "0"
-		"CornerRadius"	  "2"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"textinsetx"	"40"
@@ -56,12 +56,12 @@
 		
 		"TextFont"		"Feed"
 		
-		"TeamBlue"		"Blue"//"91 122 140 255"
-		"TeamRed"		"Red"//"189 59 59 255"
+		"TeamBlue"		"80 120 180 255"
+		"TeamRed"		"189 59 59 255"
 		"IconColor"		"190 180 170 255"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"50 50 50 255"		
+		"BaseBackgroundColor"	"0 0 0 200"		
 		"LocalBackgroundColor"	"WhiteSolid"	
 
 	}
@@ -92,10 +92,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"left"
-		"xpos"			"cs-0.5"
+		"xpos"			"c-96"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"2"
+		"wide"			"1"
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"0"

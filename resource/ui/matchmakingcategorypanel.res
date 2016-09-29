@@ -11,7 +11,6 @@
 
 		"collapsed_height"	"57"
 		"resize_time"	"0.2"
-	
 	}
 
 	"TopContainer"
@@ -32,7 +31,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BGColor"
-			"xpos"			"0"
+			"xpos"			"-5"//"0"
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"f0"
@@ -42,19 +41,19 @@
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"35 35 35 255"
 		}
 
 		"BGImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"BGImage"
-			"xpos"			"0"
+			"xpos"			"-5"//"0"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"o4"
 			"tall"			"f0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"proportionaltoparent"	"1"
@@ -64,35 +63,38 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"EntryToggleButton"
-			"xpos"			"0"
-			"ypos"			"rs1"
+			"xpos"			"p0.7"
+			"ypos"			"cs-0.5"
 			"zpos"			"100"
-			"wide"			"f0"
-			"tall"			"11"
+			"wide"			"40"
+			"tall"			"40"
 			"proportionaltoparent"	"1"
+			"stay_armed_on_click"	"1"
 
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
 			"font"	"Regular10"
-			"textinsetx"	"40"
+			"textinsetx"	"1"
+			"textinsety"	"2000"
 
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"BlackTriggeredSolid"
-
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"188 112 0 255"
-			"selectedBGColor_override" "Orange"
+
+			"defaultBgColor_override"	"Blank"
+			"armedBgColor_override"	"Blank"
+			"selectedBGColor_override" "Blank"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_default"	"/pve/buy_disabled"
-			"image_armed"	"/pve/buy_selected"
-
+			"image_default"	"replay/thumbnails/mMenu/OpenMainMenuButton"
+			"image_armed"	"replay/thumbnails/mMenu/OpenMainMenuButton"
 			"button_activation_type"	"1"
+			"image_drawcolor"	"255 255 255 108"
+			"image_armedcolor"	"255 255 255 208"
 
 			"SubImage"
 			{
@@ -115,14 +117,15 @@
 		{
 			"fieldName"			"Shade"
 			"ControlName"		"EditablePanel"
-			"xpos"				"cs-0.5"
+			"xpos"				"cs-0.5-5"
 			"ypos"				"0"
-			"zpos"				"0"
+			"zpos"				"100"
 			"wide"				"f0"
 			"tall"				"57"
 			"mouseinputenabled"	"0"
 
 			"proportionaltoparent"	"1"
+			"alpha"				"230"
 			"bgcolor_override"	"0 0 0 0"
 		}
 
@@ -130,7 +133,7 @@
 		{
 			"ControlName"		"CExCheckButton"
 			"fieldName"		"Checkbutton"
-			"xpos"		"r27"
+			"xpos"		"r32"
 			"ypos"		"-1"
 			"zpos"		"3"
 			"wide"		"25"
@@ -143,29 +146,29 @@
 			"button_activation_type"	"1"
 		}
 
-		"Title"
+		"Title"		// Gamemode label
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"xpos"			"rs1-24"
-			"ypos"			"4"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"3"
-			"wide"			"120"
-			"tall"			"15"
+			"wide"			"180"
+			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"Black11"
-			"textAlignment"	"east"
+			"font"			"Black22"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor"		"WhiteSolid"
+			"fgcolor"		"MainTextWhite"
 			"paintbackground"	"1"
 		}	
 
@@ -173,25 +176,25 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleShadow"
-			"xpos"			"rs1-23"
-			"ypos"			"5"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"2"
-			"wide"			"120"
-			"tall"			"15"
+			"wide"			"180"
+			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"Black11"
-			"textAlignment"	"east"
+			"font"			"Black22"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor_override"		"Black"
+			"fgcolor_override"		"MainText"
 			"paintbackground"	"1"
 		}
 
@@ -199,13 +202,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"Regular9"
+			"font"			"vBlack9"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
-			"xpos"			"rs1-5"
-			"ypos"			"18"
+			"xpos"			"4"
+			"ypos"			"27"
 			"zpos"			"2"
-			"wide"			"125"
+			"wide"			"140"
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -213,7 +216,7 @@
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" "WhiteSolid"
+			"fgcolor_override" "SecondaryTextWhite"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}
@@ -222,21 +225,21 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabelShadow"
-			"font"			"Regular9"
+			"font"			"Regular10"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
-			"xpos"			"rs1-4"
-			"ypos"			"19"
+			"xpos"			"4"
+			"ypos"			"21"
 			"zpos"			"1"
-			"wide"			"125"
+			"wide"			"140"
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" "Black"
+			"fgcolor_override" "SecondaryText"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}
@@ -246,10 +249,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlaylistBGPanel"
-		"xpos"			"cs-0.5"
+		"xpos"			"-5"
 		"ypos"			"p1.17-2"
-		"zpos"			"1"
-		"wide"			"p1.5"
+		"zpos"			"-1"
+		"wide"			"p1-5"
 		"tall"			"1000"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -265,19 +268,19 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"f0"
+		"wide"			"p1"
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
+		"border"		"noBorder"
 
-		"pinCorner"		"2"
-		"autoResize"	"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
 
 		"skip_autoresize"	"1"
 
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"	"0 0 0 0"
 	}
 }

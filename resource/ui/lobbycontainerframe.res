@@ -6,8 +6,8 @@
 		"fieldName"		"LobbyContainerFrame"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"p1"
+		"tall"			"p1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -32,20 +32,36 @@
 
 		"NavToRelay"			"BackButton"
 	}
+	"Top"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldname"		"Top"
+		"xpos"			"-100"
+		"ypos"			"-70"
+		"zpos"			"23"
+		"wide"			"p5"
+		"tall"			"100"
+		"visible"		"1"
+		"paintBackgroundType"	"0"
+		"scaleimage"			"1"
+		"image"			"replay/thumbnails/mMenu/Box"
+		"drawcolor"		"35 35 35 200"
+	}
+
 	"DarkBg"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"DarkBg"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-3"
+		"zpos"			"-4"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
 		"image"			"replay/thumbnails/bg/bg_solid"		// "replay/thumbnails/images/LobbyContainerFrame/casual_bg.vmt"
-		"drawcolor"		"b100"
+		"drawcolor"		"BlackSolid"
 		"scaleImage"	"1"
 	}
 	"ModeBackgroundImagemhud"
@@ -54,15 +70,30 @@
 		"fieldName"		"ModeBackgroundImagemhud"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"zpos"			"-2"
-		"wide"			"p0.9"
-		"tall"			"p0.9"
-		"visible"		"0"
+		"zpos"			"-3"
+		"wide"			"p1"
+		"tall"			"p1"
+		"visible"		"1"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
-		"image"			"replay/thumbnails/mMenu/ShadowlessBox"		// "replay/thumbnails/images/LobbyContainerFrame/casual_bg.vmt"
-		"drawcolor"		"Grey"
+		"image"			"replay/thumbnails/images/lobbycontainerframe/casual_bg"		// "replay/thumbnails/images/LobbyContainerFrame/casual_bg.vmt"
+//		"drawcolor"		"Grey"
 		"scaleImage"	"1"
+	}	
+	"Label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldname"		"Label"
+		"xpos"			"cs-1-260"
+		"ypos"			"0"
+		"zpos"			"24"
+		"wide"			"60"	//GameButtonWide
+		"tall"			"26"	//GameButtonTall
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"font"			"Bold12"
+		"textalignment"	"center"
+		"textinsety"	"7"
 	}
 	"ModeBackgroundImagemhudShadow"
 	{
@@ -161,40 +192,30 @@
 			"mouseinputenabled"	"0"
 		}
 	}
-
 	"BackButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-38"
-		"ypos"			"r85"
-		"zpos"			"10"
-		"wide"			"180"
-		"tall"			"25"
+		"xpos"			"10"
+		"ypos"			"r25"	// ButtonYpos
+		"zpos"			"2"
+		"wide"			"100"	// ButtonWide
+		"tall"			"15"	// ButtonHeight
 		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"Bold12"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"textinsety"	"5"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"Back"
-	
-		"defaultFgColor_override" "MainText"
-		"armedFgColor_override" "Highlight2"
-		"depressedFgColor_override" "MainText"
 
-		"defaultBgColor_override" "blank"
-		"armedBgColor_override" "blank"
-		"depressedBgColor_override" "blank"
-
-
-		"NavUp"			"PlayNowButton"
-		"NavRight"		"LearnMoreButton"
+		"NavUp"			"StartPartyButton"
+		"NavDown"		"LearnMoreButton"
+		"NavLeft"		"LearnMoreButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -252,13 +273,13 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NextButton"
-		"xpos"			"c+120"
-		"ypos"			"437"
+		"xpos"			"rs1-10"
+		"ypos"			"r25"	// ButtonYpos
 		"zpos"			"2"
-		"wide"			"180"
-		"tall"			"25"
+		"wide"			"100"	// ButtonWide
+		"tall"			"15"	// ButtonHeight
 		"autoResize"	"0"
-		//"pinCorner"		"3"
+		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -281,11 +302,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StartPartyButton"
-		"xpos"			"c-38"
-		"ypos"			"r115"
+		"xpos"			"cs-0.5"
+		"ypos"			"r25"	// ButtonYpos
 		"zpos"			"10"
-		"wide"			"180"
-		"tall"			"25"
+		"wide"			"100"	// ButtonWide
+		"tall"			"15"	// ButtonHeight
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

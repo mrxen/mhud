@@ -123,7 +123,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -133,7 +133,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -141,7 +141,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -151,7 +151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
@@ -159,7 +159,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -167,7 +167,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"11"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -175,7 +175,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -183,7 +183,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -191,19 +191,17 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
 			}
 		}
-
-
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -212,7 +210,7 @@ Scheme
 
 			"2"
 			{
-				"name"			"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -221,7 +219,7 @@ Scheme
 
 			"3"
 			{
-				"name"			"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -231,7 +229,7 @@ Scheme
 
 			"4"
 			{
-				"name"			"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -241,7 +239,7 @@ Scheme
 
 			"5"
 			{
-				"name"			"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -253,7 +251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -261,7 +259,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
@@ -269,7 +267,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -277,7 +275,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"28"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -285,7 +283,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"28"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -293,14 +291,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
 			}
 			"7"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -311,8 +309,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"	"AvenirLTStd-Book" [!$OSX]
-				"name"	"AvenirLTStd-Book" [$OSX]
+				"name"		"Code-Pro-LC"
 				"tall"	"18"
 				"antialias" "1"
 				"additive"	"1"
@@ -323,7 +320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -335,14 +332,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"yres"	"480 599"
 				"antialias" 	"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"	[!$OSX]
 				"tall"		"20"	[$X360]
 				"yres"	"600 767"
@@ -350,21 +347,21 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"yres"	"768 1023"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"yres"	"1024 1199"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"yres"	"1200 10000"
 				"antialias" 	"1"
@@ -375,28 +372,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"yres"		"480 599"
 				"antialias" 	"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"yres"	"600 767"
 				"antialias" 	"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -451,211 +448,39 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"CrossHairKonrWings"
-		{
-			"1"
-			{
-				"name"		"Garm3nFont"
-				"tall"		"23"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairKonrWingsOutline"
-		{
-			"1"
-			{
-				"name"		"Garm3nFont"
-				"tall"		"23"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"1"
-			}
-		}
-		"FMCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairNormal"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"28"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairThin"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"24"
-				"weight"	"0"
-				"additive"	"0"
-			}
-		}
-
-		"xHairThinOutline"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"24"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrossHairRequest"
-		{
-			"1"
-			{
-				"name"		"Courier"
-				"tall"		"20"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrossHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"CrossHairCircleSmall"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"15"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"CrossHairCircleSmaller"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"21"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairDotOutline"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
-			}
-		}
-
-		"xHairNormal"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"30"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairRequest"
-		{
-			"1"
-			{
-				"name"		"Courier"
-				"tall"		"20"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairDotOutline"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
-			}
-		}
-
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"44"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"48"
 				"additive"	"0"
 				"antialias" "1"
@@ -665,7 +490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -676,7 +501,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -687,7 +512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -697,7 +522,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -707,7 +532,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-Bold"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -717,7 +542,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -727,7 +552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -737,7 +562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-Bold"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -747,7 +572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-Bold"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -757,7 +582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-Bold"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -767,7 +592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -777,7 +602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -787,7 +612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -797,7 +622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -807,7 +632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-Bold"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -817,7 +642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Code-Pro-Bold"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -827,7 +652,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-Bold"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -838,7 +663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -848,7 +673,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -859,7 +684,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Code-Pro-Bold"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -869,7 +694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Code-Pro-Bold"
 				"tall"		"6"
 				"additive"	"0"
 				"antialias" "1"
@@ -879,7 +704,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -889,7 +714,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -899,7 +724,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -909,7 +734,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -919,7 +744,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -929,7 +754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -939,7 +764,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -949,7 +774,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -959,7 +784,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -969,7 +794,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -979,7 +804,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -989,7 +814,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -999,7 +824,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -1009,33 +834,33 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"antialias" 	"1"
 				"additive"	"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"	
 				"antialias" 	"1"
 				"additive"	"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"antialias" 	"1"
 			}
@@ -1044,14 +869,14 @@ Scheme
 		{
 			"1"	[!$OSX]
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"outline"	"1"
 				"antialias" 	"1"
 			}
 			"1"	[$X360]
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"outline"	"1"
 				"antialias" 	"1"
@@ -1061,7 +886,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  	"tfd" // tfd.ttf
+				"name"  	"tfd"
 				"tall"  	"28"
 				"weight" 	"0"
 				"additive" 	"0"
@@ -1084,7 +909,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"60"
 				"antialias" "1"
 				"additive"	"0"
@@ -1095,14 +920,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Team Fortress" // tf.ttf
+				"name"  "Team Fortress"
 				"tall"  "28"
 				"additive" "1"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"  "AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"  "28"
 				"additive" "1"
 				"antialias" "1"
@@ -1119,45 +944,12 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
-		"VersionFont"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"14"
-				"additive"		"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"VersionFont2"
-		{
-			"1"
-			{
-				"name"		"Clear Sans Bold"
-				"tall"		"9"
-				"additive"		"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"FeedFont"
-		{
-			"1"
-			{
-				"name"		"Clear Sans Bold"
-				"tall"		"10"
-				"additive"		"0"
-				"antialias"	"1"
-			}
-		}		
-		
+
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -1167,7 +959,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias"	"1"
 				"italic"	"1"
@@ -1178,7 +970,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -1188,7 +980,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-Bold"
 				"tall"		"20"
 				"antialias"	"1"
 				"italic"	"1"
@@ -1199,7 +991,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -1232,7 +1024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1241,7 +1033,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1251,7 +1043,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -1261,7 +1053,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1272,7 +1064,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"28"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
@@ -1282,7 +1074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"36"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -1292,7 +1084,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -1302,7 +1094,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14" [!$OSX]
 				"tall"		"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1311,12 +1103,26 @@ Scheme
 				"custom"		"1" [$OSX]
 			}
 		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardVerySmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium-Medium"			
-				"tall"		"9"
+				"name"		"Verdana"
+				"tall"		"8"
+				"tall_hidef"	"10"
+				"tall_lodef"	"14"
+				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1325,8 +1131,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium-Medium"			
-				"tall"		"9"
+				"name"		"Code-Pro-LC"
+				"tall"		"10"
+				"tall_hidef"	"12"
+				"tall_lodef"	"14"
+				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1335,18 +1144,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		"ScoreboardMediumSmall2"
-		{
-			"1"
-			{
-				"name"		"Clear Sans Bold"
-				"tall"		"18"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1355,8 +1156,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1365,8 +1168,36 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
+				"tall_hidef"	"24"
+				"tall_lodef"	"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1375,52 +1206,84 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"28"
+				"name"		"Code-Pro-LC"
+				"tall"		"34"
+				"tall_hidef"	"38"
+				"tall_lodef"	"38"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
 		}
 
+		"ScoreboardTeamScoreNew"
+ 		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"36"
+				"tall_hidef"	"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardTeamScore"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"44"
+				"name"		"Code-Pro-LC"
+				"tall"		"52"
+				"tall_lodef"		"80"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1 599"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"72"
+				"tall_hidef"	"120"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"600 767"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"80"
+				"name"		"Code-Pro-LC"
+				"tall"		"100"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"768 1023"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"100"
+				"name"		"Code-Pro-LC"
+				"tall"		"140"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1024 1199"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"180"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1200 10000"
 				"antialias" "1"
 			}
 		}
-
 		"MatchSummaryTeamScores"
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1432,7 +1295,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1443,7 +1306,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1454,7 +1317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Clear Sans Bold"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1466,7 +1329,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1476,7 +1339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -1487,7 +1350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1498,35 +1361,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"dropshadow"	"0"
 				"antialias"	"1"
@@ -1537,7 +1400,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"antialias"	"1"
 			}
@@ -1547,7 +1410,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1556,7 +1419,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1565,7 +1428,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1574,7 +1437,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1583,7 +1446,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1596,7 +1459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"antialias"		"1"
@@ -1616,7 +1479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -1626,7 +1489,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -1637,7 +1500,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -1647,7 +1510,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1658,7 +1521,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"additive"	"0"
@@ -1670,7 +1533,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"32"
 				"tall_lodef"		"28"
 				"antialias" "1"
@@ -1680,7 +1543,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"28"
 				"antialias" "1"
 			}
@@ -1689,7 +1552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"26"
 				"antialias" "1"
 			}
@@ -1698,7 +1561,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1707,7 +1570,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -1716,7 +1579,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"antialias" "1"
 			}
@@ -1725,7 +1588,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -1734,7 +1597,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1743,7 +1606,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -1752,7 +1615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -1762,7 +1625,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -1772,7 +1635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1782,7 +1645,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1792,7 +1655,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -1801,7 +1664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -1812,7 +1675,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1823,7 +1686,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1835,19 +1698,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"antialias"	"1"
 			}
@@ -1857,7 +1720,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -1867,7 +1730,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1877,7 +1740,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1887,7 +1750,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1897,7 +1760,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1907,7 +1770,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"7"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1917,7 +1780,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1928,7 +1791,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1938,7 +1801,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"blur"		"3"
 				"additive"	"1"
@@ -1950,7 +1813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -1961,7 +1824,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Code-Pro-LC"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -1982,11 +1845,11 @@ Scheme
 			}
 		}
 		
-		        "QuestObjectiveTracker_Desc"
+		"QuestObjectiveTracker_Desc"
         {
             "1"
             {
-                "name"        "Verdana"
+				"name"		"Code-Pro-LC"
                 "tall"        "7"
                 "weight"    "0"
                 "additive"    "1"
@@ -1997,7 +1860,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Verdana"
+				"name"		"Code-Pro-LC"
                 "tall"        "7"
                 "weight"    "0"
                 "antialias"     "1"
@@ -2007,7 +1870,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Verdana"
+				"name"		"Code-Pro-LC"
 
                 "tall"        "7"
                 "weight"    "0"
@@ -2021,7 +1884,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Verdana"
+				"name"		"Code-Pro-LC"
                 "tall"        "7"
                 "weight"    "0"
                 "antialias"     "1"
@@ -2032,7 +1895,7 @@ Scheme
         {
             "1"
             {
-                "name"        "ocra"
+				"name"		"Code-Pro-LC"
                 "tall"        "10"
                 "weight"    "400"
                 "yres"        "480 599"
@@ -2041,7 +1904,7 @@ Scheme
             }
             "2"
             {
-                "name"        "ocra"
+				"name"		"Code-Pro-LC"
                 "tall"        "14"
                 "weight"    "400"
                 "additive"    "0"
@@ -2050,7 +1913,7 @@ Scheme
             }
             "3"
             {
-                "name"        "ocra"
+				"name"		"Code-Pro-LC"
                 "tall"        "18"
                 "weight"    "400"
                 "additive"    "0"
@@ -2063,7 +1926,7 @@ Scheme
         {
             "1"
             {
-                "name"        "ocra"
+				"name"		"Code-Pro-LC"
                 "tall"        "10"
                 "weight"    "800"
                 "yres"        "480 599"
@@ -2072,7 +1935,7 @@ Scheme
             }
             "2"
             {
-                "name"        "ocra"
+				"name"		"Code-Pro-LC"
                 "tall"        "14"
                 "weight"    "800"
                 "additive"    "0"
@@ -2081,7 +1944,7 @@ Scheme
             }
             "3"
             {
-                "name"        "ocra"
+				"name"		"Code-Pro-LC"
                 "tall"        "18"
                 "weight"    "800"
                 "additive"    "0"
@@ -2094,7 +1957,7 @@ Scheme
         {
             "1"
             {
-                "name"        "ocra"
+				"name"		"Code-Pro-LC"
                 "tall"        "16"
                 "weight"    "400"
                 "additive"    "0"
@@ -2106,7 +1969,7 @@ Scheme
         {
             "1"
             {
-                "name"        "TF2 Professor"
+				"name"		"Code-Pro-LC"
                 "tall"        "20"
                 "antialias" "1"
                 "custom"        "1" [$OSX]
@@ -2118,7 +1981,7 @@ Scheme
         {
             "1"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "10"
                 "weight"    "400"
                 "yres"        "480 599"
@@ -2127,7 +1990,7 @@ Scheme
             }
             "2"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "14"
                 "weight"    "400"
                 "additive"    "0"
@@ -2136,7 +1999,7 @@ Scheme
             }
             "3"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "22"
                 "weight"    "400"
                 "additive"    "0"
@@ -2149,7 +2012,7 @@ Scheme
         {
             "1"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "10"
                 "weight"    "400"
                 "yres"        "480 599"
@@ -2159,7 +2022,7 @@ Scheme
             }
             "2"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "14"
                 "weight"    "400"
                 "additive"    "0"
@@ -2169,7 +2032,7 @@ Scheme
             }
             "3"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "22"
                 "weight"    "400"
                 "additive"    "0"
@@ -2183,7 +2046,7 @@ Scheme
         {
             "1"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "10"
                 "weight"    "800"
                 "yres"        "480 599"
@@ -2192,7 +2055,7 @@ Scheme
             }
             "2"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "14"
                 "weight"    "800"
                 "additive"    "0"
@@ -2201,7 +2064,7 @@ Scheme
             }
             "3"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "18"
                 "weight"    "800"
                 "additive"    "0"
@@ -2214,7 +2077,7 @@ Scheme
         {
             "1"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "13"
                 "weight"    "400"
                 "additive"    "0"
@@ -2226,7 +2089,7 @@ Scheme
         {
             "1"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "16"
                 "weight"    "400"
                 "additive"    "0"
@@ -2238,7 +2101,7 @@ Scheme
         {
             "1"
             {
-                "name"        "TF2 Secondary"
+				"name"		"Code-Pro-LC"
                 "tall"        "10"
                 "weight"    "400"
                 "additive"    "0"
@@ -2250,7 +2113,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Verdana"
+				"name"		"Code-Pro-LC"
                 "tall"        "8"
                 "weight"    "400"
                 "additive"    "0"
@@ -2261,7 +2124,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Verdana"
+				"name"		"Code-Pro-LC"
                 "tall"        "8"
                 "weight"    "0"
                 "antialias"     "1"
@@ -2275,31 +2138,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"antialias"	"1"
 			}
@@ -2308,7 +2171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2318,37 +2181,37 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -2357,7 +2220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -2367,7 +2230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -2377,7 +2240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -2387,7 +2250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -2397,10 +2260,36 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+
+		"XPSource"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias" 	"1"
+				"custom"	"1"
+			}
+		}
+
+		"XPSource_Glow"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"11"
+				"weight"	"500"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+				"custom"	"1"
 			}
 		}
 		
@@ -2411,7 +2300,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -2421,7 +2310,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -2431,7 +2320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -2441,392 +2330,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Code-Pro-LC"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias"	"1"
-			}
-		}
-		"Montserrat7"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"7"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat8"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"8"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat9"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"9"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat10"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"10"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat11"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"11"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat12"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"12"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat13"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"13"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat14"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"14"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat15"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"15"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat16"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"16"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat17"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"17"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat18"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"18"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat19"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"19"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat20"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"20"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat21"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"21"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat22"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"22"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat23"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"23"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat23Outline"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"23"
-				"outline"	"1"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat23OutlineThin"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"23"
-				"outline"	"1"	
-				"weight"	"100"
-				"antialias" "1"
-			}
-		}
-		"Montserrat24"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"24"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat26"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"26"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat28"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"28"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat30"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"28"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat32"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"32"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat34"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"34"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat36"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"36"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat38"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"38"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat40"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"40"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat42"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"42"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat44"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"44"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat46"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"46"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat48"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"48"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat50"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"50"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat52"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"52"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat54"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"54"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat56"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"56"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat64"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"64"
-				"outline"	"0"	
-				"antialias" "1"
-			}
-		}
-		"Montserrat72"
-		{
-			"1"
-			{
-				"name"		"Montserrat-Regular"
-				"tall"		"72"
-				"outline"	"0"
-				"antialias" "1"
 			}
 		}
 	}

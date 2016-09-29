@@ -1,22 +1,10 @@
 #base "scheme/Colours.res"
 #base "scheme/BaseSettings.res"
 #base "scheme/Borders.res"
+
 #base "scheme/Fonts.res"
-
-
-///  Font Switcher  //////////////////////////////
-//#base "scheme/Fonts - Sans.res"      			//
-//#base "scheme/Fonts - Oswald.res"      		//
-#base "scheme/Fonts - Code.res"      			//
-//#base "scheme/Fonts - Avenir.res"				//
-//#base "scheme/Fonts - Roboto.res"				//
-//#base "scheme/Fonts - RobotoCondensed.res"	//
-//////////////////////////////////////////////////
-
-
+#base "scheme/Fonts - Code.res"
 #base "scheme/Fonts - Symbols.res"
-
-
 
 
 // TRACKER SCHEME RESOURCE FILE
