@@ -2,7 +2,7 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -13,28 +13,26 @@
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"replay/thumbnails/hud/color_panel_red"
-		"teambg_3"		"replay/thumbnails/hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"image"					"../hud/color_panel_brown"
+		"scaleImage"			"1"
+		"teambg_1"				"../hud/color_panel_brown"
+		"teambg_2"				"replay/thumbnails/hud/color_panel_red"
+		"teambg_3"				"replay/thumbnails/hud/color_panel_blu"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"	
+		"draw_corner_width"		"0"	
 		"draw_corner_height" 	"0"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
 		"ypos"			"29"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"10"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"

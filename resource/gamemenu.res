@@ -1,175 +1,134 @@
 "GameMenu" [$WIN32]
 {
-	"OpenMainMenuButton"
+	"ResumeGameButton"
 	{
-		"label"	"i"
-		"command" "toggle_play_menu"
-		"subimage" "replay/thumbnails/mMenu/OpenMainMenuButton"
-		"OnlyAtMenu" "1"
+		"label"			"#MMenu_ResumeGame"
+		"command"		"ResumeGame"
+		"OnlyInGame"	"1"
+		"subimage"		"icon_resume"
 	}
-	"OpenMainMenuButtonInGame"
+	"FindAGameButton"
 	{
-		"label"	"i"
-		"command" "toggle_play_menu"
-		"subimage" "replay/thumbnails/mMenu/OpenMainMenuButton"
-		"OnlyInGame" "1"
+		"label"			"#MMenu_FindAGame" 
+		"command"		"toggle_play_menu"
+		"subimage"		"glyph_multiplayer"
+		"OnlyAtMenu"	"1"
 	}
-	"OpenMainMenuButtonMin"
+	 "CasualButton"
 	{
-		"label"	"i"
-		"command" "toggle_play_menu"
-		"subimage" "replay/thumbnails/mMenu/OpenMainMenuButton"
-		"OnlyInGame" "0"
+		"label"			"pubs"
+		"command"		"play_casual"
+		"subimage"		"replay/thumbnails/bg/bg_solid"
+		"OnlyAtMenu"	"1"
 	}
-	"CharacterSetupButton"
+	"CompetitiveButton"
 	{
-		"label" "Hats"
-		"command" "engine open_charinfo"
-		"subimage" "replay/thumbnails/bg/bg_solid"
+		"label"			"6s pubs"
+		"command"		"play_competitive"
+		"subimage"		"replay/thumbnails/bg/bg_solid"
+		"OnlyAtMenu"	"1"
+	}	
+	"ServerBrowserButton"
+	{
+		"label"			"servers"
+		"command"		"OpenServerBrowser"
+		"subimage"		"replay/thumbnails/bg/bg_solid"
+		"OnlyAtMenu"	"0"
 	}
+	"MvMButton"
+	{
+		"label"			"robots"
+		"command"		"play_mvm"
+		"subimage"		"replay/thumbnails/bg/bg_solid"
+		"OnlyAtMenu"	"1"
+	}
+
+	"FindAGameButtonHalfWidth"
+	{
+		"label"			"#MMenu_FindAGame" 
+		"command"		"toggle_play_menu"
+		"subimage"		"glyph_multiplayer"
+		"OnlyInGame"	"1"
+	}
+
+	"VRModeButton"
+	{
+		"label"			"#MMenu_VRMode_Activate"
+		"command"		"engine vr_toggle"
+		"subimage"		"glyph_vr"
+		"OnlyWhenVREnabled"	"1"
+	}
+
 	"GeneralStoreButton"
 	{
-		"label" "Store"
-		"command" "engine open_store"
-		"subimage" "replay/thumbnails/bg/bg_solid"
-	}
-	"SettingsButton"
+		"label"			"spend"
+		"command"		"engine open_store"
+		"subimage"		"glyph_store"
+	}	
+	"CharacterSetupButton"
 	{
-		"label" "Options"
-		"command" "OpenOptionsDialog"
-		"subimage" "replay/thumbnails/bg/bg_solid"
+		"label"			"hats"
+		"command"		"engine open_charinfo"
+		"subimage"		"glyph_items"
 	}
-	"TF2SettingsButton"
+	"ToggleConsoleButton"
 	{
-		"label" "Advanced"
-		"command" "OpenTF2Options"
-		"subimage" "replay/thumbnails/bg/bg_solid"
+		"label"			"console"
+		"command"		"engine toggleconsole"
 	}
-	"QuitButton"
+	"MapItemTestButton"
 	{
-		"label" "X"
-		"command" "engine gamemenucommand quit"
+		"label"			"itemtest"
+		"command"		"engine map itemtest"
 	}
+	"DisconnectButton"
+	{
+		"label"			"menu"
+		"command"		"engine disconnect"
+		"OnlyInGame"	"1"
+	}
+	
+	// These buttons are positioned by mainmenuoverride.res
+	
 	"ReloadButton"
 	{
 		"label" "d"
 		"command" "engine vgui_cache_res_files 0; incrementvar mat_antialias 0 1 1; hud_reloadscheme; vgui_cache_res_files 1"
 	}
-	"ResumeGameButton"
-	{
-		"label"			"{"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "replay/thumbnails/bg/bg_circle"
-	}
-	"mMenuBg"
-	{
-		"label"	" "
-		"command" " "
-		"subimage"	"replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "1"
-	}
-	"InGameBg"
-	{
-		"OnlyInGame" "1"
-		"label"		""
-		"command"	"0"
-		"subimage"	"replay/thumbnails/blur/blur_solid"
-	}
-	"DisconnectButton"
-	{
-		"OnlyInGame" "1"
-		"Label"		"Disconnect"
-		"command"	"engine disconnect"
-		"subimage" "replay/thumbnails/bg/bg_solid"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "Workshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-	}
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
-	 "CasualButton"
-	{
-		"label" "Casual"
-		"command" "play_casual"
-		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "1"
-	}
-	 "CasualButtonInGame"
-	{
-		"label" "Casual"
-		"command" "play_casual"
-		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyInGame" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Comp"
-		"command" "play_competitive"
-		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "0"
-	}	
-	"ServerBrowserButton"
-	{
-		"label" "Servers"
-		"command" "OpenServerBrowser"
-		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "0"
-	}
-	"MvMButton"
-	{
-		"label" "MvM"
-		"command" "play_mvm"
-		"subimage" "replay/thumbnails/bg/bg_solid"
-		"OnlyAtMenu" "0"
-	}
-
-
-	// These buttons get positioned by the MainMenuOverride.res
-
-
+	
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
+	
 	"CallVoteButton"
 	{
-		"label"			"Call Vote"
+		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute Players"
+		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
+		"tooltip" "#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
-		"label"			"Request Coach"
+		"label"			""
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
+		"tooltip" "#MMenu_RequestCoach"
 	}
 	"ReportPlayerButton"
 	{
-		"label"			"Report Player"
+		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
-	}	
+		"tooltip"		"#MMenu_ReportPlayer"
+	}
 }

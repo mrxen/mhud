@@ -5,10 +5,10 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
 		"xpos"				"c-150"
-		"ypos"				"r145"
+		"ypos"				"rs1"
 		"zpos"				"1"
 		"wide"				"400"
-		"tall"				"150"
+		"tall"				"140"
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
@@ -33,7 +33,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"replay/thumbnails/bg/bg_solid"//"../hud/cart_track"
+		"drawcolor"		"black150"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
@@ -41,14 +42,14 @@
 			"ypos"			"114"
 			"zpos"			"3"
 			"tall"			"12"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"image"			"replay/thumbnails/bg/bg_solid"//"../hud/cart_track"
 		}
 		
 		"if_single_with_hills"
 		{
 			"ypos"			"121"
 			"tall"			"8"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"image"			"replay/thumbnails/bg/bg_solid"//"../hud/cart_track"
 		}		
 	}	
 	
@@ -94,17 +95,20 @@
 		
 		"if_team_red"
 		{
-			"image"			"../hud/cart_home_red"
+			"image"			"replay/thumbnails/bg/bg_circle"	// "../hud/cart_home_red"
+			"drawcolor"		"Red"
 		}
 		
 		"if_single_with_hills_blue"
 		{
-			"image"			"../hud/cart_home_blue_opaque"
+			"image"			"replay/thumbnails/bg/bg_circle"	// "../hud/cart_home_blue_opaque"
+			"drawcolor"		"Blue"
 		}		
 		
 		"if_single_with_hills_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"image"			"replay/thumbnails/bg/bg_circle"	// "../hud/cart_home_red_opaque"
+			"drawcolor"		"Red"
 		}		
 		
 		"if_multiple_trains"
@@ -113,7 +117,7 @@
 			"zpos"			"5"
 			"wide"			"14"
 			"tall"			"14"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"image"			"replay/thumbnails/bg/bg_circle"	// "../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_multiple_trains_top"
@@ -128,12 +132,14 @@
 		
 		"if_multiple_trains_red"
 		{
-			"image"			"../hud/cart_home_red_square"
+			"image"			"replay/thumbnails/bg/bg_circle"	// "../hud/cart_home_red_square"
+			"drawcolor"		"Red"
 		}
 		
 		"if_multiple_trains_blue"
 		{
-			"image"			"../hud/cart_home_blue_square"
+			"image"			"replay/thumbnails/bg/bg_circle"	// "../hud/cart_home_blue_square"
+			"drawcolor"		"Blue"
 		}
 	}
 	

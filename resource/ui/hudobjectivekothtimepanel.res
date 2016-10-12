@@ -25,7 +25,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Bold14"
+		"delta_item_font"		"HudFontMedium"
 
 		if_match
 		{
@@ -38,15 +38,15 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"Bold14"
+			"delta_item_font"		"HudFontMediumSmall"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Bold14"
-			"fgcolor"		"WhiteSolid"
+			"font"			"HudFontMediumSmall"
+			"fgcolor"		"White"
 			"xpos"			"23"
 			"ypos"			"11"
 			"zpos"			"3"
@@ -54,19 +54,18 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 
 			if_match
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"15"
-				"ypos"			"12"
-				"tall"			"10"
-				"wide"			"35"
-				"font"			"Bold12"
-			
+				"xpos"			"cs-1"
+				"ypos"			"7"
+				"tall"			"20"
+				"wide"			"33"
+				"font"			"Bold13"			
 			}
 		}	
 	}
@@ -101,15 +100,15 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"Bold14"
+			"delta_item_font"		"HudFontMediumSmall"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Bold14"
-			"fgcolor"		"WhiteSolid"
+			"font"			"HudFontMediumSmall"
+			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"ypos"			"11"
 			"zpos"			"3"
@@ -117,19 +116,18 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 
 			if_match
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-15"
-				"ypos"			"12"
-				"wide"			"35"
-				"tall"			"10"
-				"font"			"Bold12"
-			
+				"xpos"			"cs-0"
+				"ypos"			"7"
+				"tall"			"20"
+				"wide"			"33"
+				"font"			"Bold13"			
 			}
 		}	
 	}
@@ -140,9 +138,12 @@
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
 		"ypos"				"9"
+		"ypos_minmode"		"-4"
 		"zpos"				"1"
 		"wide"				"78"
+		"wide_minmode"		"37"
 		"tall"				"33"
+		"tall_minmode"		"21"
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_active_bg"	

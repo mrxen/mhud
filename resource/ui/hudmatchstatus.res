@@ -8,7 +8,6 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 	}
-
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
@@ -57,16 +56,15 @@
 			}
 		}
 	}
-	
 	"CountdownLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"Bold16"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
+		"ypos"			"0"
 		"wide"			"40"
-		"tall"			"50"
+		"tall"			"41"
 		"zpos"			"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -74,9 +72,9 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%countdown%"
-		"textAlignment"	"center"
+		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"WhiteSolid"
+		"fgcolor"				"White"
 
 		if_readymode
 		{
@@ -90,20 +88,21 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"Bold16"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
 		"wide"			"40"
-		"tall"			"50"
-		"zpos"			"4"
+		"tall"			"41"
+		"zpos"			"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%countdown%"
-		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
+		"fgcolor"				"Black"
+		"textinsety"			"1"
 
 	
 		if_readymode
@@ -112,7 +111,20 @@
 			"ypos"			"130"
 		}
 	}	
-
+	"CountDownBg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CountDownBg"
+		"xpos"			"cs-0.5"
+		"ypos"			"100"
+		"zpos"			"-1"		
+		"wide"			"300"
+		"tall"			"100"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"replay/thumbnails/bg/bg_solid"
+		"drawcolor"		"blank"
+	}
 	"FrontParticlePanel"
 	{
 		"ControlName"	"CTFParticlePanel"
@@ -193,14 +205,13 @@
 				"sequence"		"idle_closed"
 			}
 		}
-	}	
-
+	}
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"-2"		
+		"zpos"			"-1"		
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"1"
@@ -253,6 +264,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
+			"bgcolor_override"		"blank"
 
 			if_match
 			{
@@ -260,10 +272,12 @@
 
 				"xpos"			"cs-0.5"
 				"ypos"			"4"
-				"tall"			"18"
-				"textinsety"	"5"
-				"wide"			"80"
+				"zpos"			"-1"
+				"tall"			"19"
+				"textinsety"	"11"
+				"wide"			"76"
 				"font"			"Bold16"
+				"bgcolor_override"		"Black200"
 			}
 		}
 		"BGFrame"
@@ -286,50 +300,6 @@
 			}
 		}
 	}
-	"BlueBg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGBlack"
-		"xpos"			"cs-1-38"
-		"ypos"			"-24"
-		"zpos"			"-2"
-		"wide"			"136"
-		"tall"			"45"
-		"backgroundtype"		"2"
-		"proportionaltoparent"	"1"
-		"image"					"replay/thumbnails/mMenu/casual/RCBackground"
-		"drawcolor"				"35 35 35 255"
-		"scaleimage"			"1"
-		"visible"				"0"
-		"enabled"				"1"
-
-		if_match
-		{
-		"visible"		"0"
-		}
-	}
-	"RedBg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGBlack"
-		"xpos"			"cs-0+38"
-		"ypos"			"-24"
-		"zpos"			"-2"
-		"wide"			"136"
-		"tall"			"45"
-		"backgroundtype"		"2"
-		"proportionaltoparent"	"1"
-		"image"					"replay/thumbnails/mMenu/casual/RCBackground"
-		"drawcolor"				"35 35 35 255"
-		"scaleimage"			"1"
-		"visible"				"0"
-		"enabled"				"1"
-		
-		if_match
-		{
-		"visible"		"0"
-		}
-	}
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -349,12 +319,12 @@
 		"12v12_gap"	"0"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-42"
+		"team1_base_x"	"c-39"
 		"team1_max_expand"	"130"
 
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c43"
+		"team2_base_x"	"c39"
 		"team2_max_expand"	"130"
 
 		"playerpanels_kv"
@@ -604,10 +574,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueTeamPanel"
-		"xpos"			"-155"
+		"xpos"			"155"
 		"ypos"			"125"
 		"zpos"			"50"
-		"wide"			"150"
+		"wide"			"200"
 		"tall"			"260"
 		"visible"		"0"
 		"enabled"		"1"
@@ -629,18 +599,54 @@
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"border"		"TFFatLineBorderBlueBG"
+		}
+		"BlueTeamBGmHud"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BlueTeamBGmHud"
+			"xpos"			"20"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"150"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBG"
+			"proportionaltoparent"	"1"
+			"image"					"replay/thumbnails/mMenu/casual/RCBackground"
+			"drawcolor"				"Blue"
+			"scaleimage"			"1"
+		}
+		"BlueTeamPlayerListBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BlueTeamPlayerListBG"
+			"xpos"			"17"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"152"
+			"tall"			"340"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"0"
+			"image"					"replay/thumbnails/mMenu/CenteredBox"
+			"drawcolor"				"Black200"
+			"scaleimage"			"1"
 		}
 		"BlueTeamImage"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BlueTeamImage"
-			"xpos"			"9"
+			"xpos"			"29"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"56"
+			"wide"			"0"
 			"tall"			"56"
 			"visible"		"0"
 			"enabled"		"1"
@@ -654,7 +660,7 @@
 			"font"			"Bold24"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"center"
-			"xpos"			"48"
+			"xpos"			"68"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
@@ -669,7 +675,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
-			"xpos"			"11"
+			"xpos"			"31"
 			"ypos"			"10"
 			"zpos"			"5"	
 			"wide"			"35"
@@ -684,7 +690,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueLeaderAvatarBG"
-			"xpos"			"9"
+			"xpos"			"29"
 			"ypos"			"8"
 			"zpos"			"4"
 			"wide"			"39"
@@ -697,19 +703,20 @@
 		{
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"BluePlayerList"
-			"xpos"			"6"
+			"xpos"			"26"
 			"ypos"			"38"
 			"zpos"			"1"
-			"wide"			"136"
+			"wide"			"135"
 			"tall"			"205"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"22"
+			"linegap"		"0"
 			//"show_columns"	"1"
+			"bgcolor_override"		"blank"
 
 			if_large
 			{
@@ -729,7 +736,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"Black200BoxBorder"
+			"border"		"noBorder"
 
 			if_large
 			{

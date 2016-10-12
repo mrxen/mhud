@@ -16,10 +16,10 @@ event LowHealth
 }
 event ClearHealth
 {
-	Animate	PlayerStatusHealthValue 	  			FgColor		"WhiteSolid"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue 	  			FgColor		"Health"			Accel 0.0 0.0
    	Animate	PlayerStatusHealthValueShadow			FgColor		"HealthShadow"		Accel 0.0 0.0
    	
-	Animate	PlayerStatusHealthValueMinmode 	    	FgColor		"WhiteSolid"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueMinmode 	    	FgColor		"Health"			Accel 0.0 0.0
    	Animate	PlayerStatusHealthValueShadowMinmode	FgColor		"HealthShadow"	   	Accel 0.0 0.0
 }
 event LowAmmo

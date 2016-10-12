@@ -41,7 +41,7 @@
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"35 35 35 255"
+			"bgcolor_override"	"235 235 235 255"
 		}
 
 		"BGImage"
@@ -63,37 +63,45 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"EntryToggleButton"
-			"xpos"			"p0.7"
+			"xpos"			"p0.65"
 			"ypos"			"cs-0.5"
 			"zpos"			"100"
-			"wide"			"40"
+			"wide"			"50"
 			"tall"			"40"
+			
 			"proportionaltoparent"	"1"
 			"stay_armed_on_click"	"1"
 
-			"actionsignallevel"	"2"
-			"command"		"toggle_collapse"
-			"labeltext"		"#TF_Casual_ViewMaps"
-			"textAlignment"	"west"
-			"font"	"Regular10"
-			"textinsetx"	"1"
-			"textinsety"	"2000"
+			"actionsignallevel"		"2"
+			"command"				"toggle_collapse"
+			"labeltext"				"#TF_Casual_ViewMaps"
+			"textAlignment"			"west"
+			"font"					"Bold10"
+			"textinsetx"			"1"
+			"textinsety"			"2"
+			"centerwrap"			"1"
 
-			"border_default"	"NoBorder"
-			"border_armed"		"NoBorder"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+
+			"defaultFgColor_override"	"MainText"
+			"armedFgColor_override"		"Black"
+			"selectedFGColor_override"	"Black"
+
 
 			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"	"Blank"
-			"selectedBGColor_override" "Blank"
+			"armedBgColor_override"		"Blank"
+			"selectedBGColor_override"	"Blank"
 
-			"sound_armed"		"ui/item_info_mouseover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"				"ui/item_info_mouseover.wav"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
 
-			"image_default"	"replay/thumbnails/mMenu/OpenMainMenuButton"
-			"image_armed"	"replay/thumbnails/mMenu/OpenMainMenuButton"
+			"image_default"				"replay/thumbnails/mMenu/OpenMainMenuButton"
+			"image_armed"				"replay/thumbnails/mMenu/OpenMainMenuButton"
 			"button_activation_type"	"1"
-			"image_drawcolor"	"255 255 255 108"
+			
+			"image_drawcolor"	"255 255 0 108"
 			"image_armedcolor"	"255 255 255 208"
 
 			"SubImage"
@@ -103,7 +111,7 @@
 				"xpos"			"6"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"o1"
+				"wide"			"0"//"o1"
 				"tall"			"p0.9"
 				"visible"		"1"
 				"enabled"		"1"
@@ -125,7 +133,7 @@
 			"mouseinputenabled"	"0"
 
 			"proportionaltoparent"	"1"
-			"alpha"				"230"
+			"alpha"				"50"
 			"bgcolor_override"	"0 0 0 0"
 		}
 
@@ -151,16 +159,16 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
 			"xpos"			"-2"
-			"ypos"			"-2"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"180"
+			"wide"			"0"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"Black22"
+			"font"			"Bold20"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -168,7 +176,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor"		"MainTextWhite"
+			"fgcolor"		"0 0 0 255"
 			"paintbackground"	"1"
 		}	
 
@@ -177,7 +185,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleShadow"
 			"xpos"			"-1"
-			"ypos"			"-1"
+			"ypos"			"1"
 			"zpos"			"2"
 			"wide"			"180"
 			"tall"			"40"
@@ -186,7 +194,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"Black22"
+			"font"			"Bold20"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -194,7 +202,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor_override"		"MainText"
+			"fgcolor_override"		"Black"
 			"paintbackground"	"1"
 		}
 
@@ -202,11 +210,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"vBlack9"
+			"font"			"Bold7"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
-			"xpos"			"4"
-			"ypos"			"27"
+			"xpos"			"6"
+			"ypos"			"29"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"40"
@@ -216,7 +224,7 @@
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" "SecondaryTextWhite"
+			"fgcolor_override" "0 0 0 255"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}
@@ -225,7 +233,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabelShadow"
-			"font"			"Regular10"
+			"font"			"Bold10"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"4"

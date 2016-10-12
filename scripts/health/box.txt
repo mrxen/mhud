@@ -1,35 +1,35 @@
 event BonusHealth
 {
-	Animate	HealthBG 	    BgColor		"Buff"				Linear 0.0 0.0
-   	Animate	HealthBG 	    Alpha		"150"		       	Linear 0.0 0.2
-   	Animate	HealthBG 	    Alpha		"200"		       	Linear 0.2 0.2
-   	RunEvent	BonusHealth	0.4
+	Animate	HealthBG 	    BgColor				"Buff"				Linear 0.0 0.0
+   	Animate	HealthBG 	    Alpha				"150"		       	Linear 0.0 0.2
+   	Animate	HealthBG 	    Alpha				"200"		       	Linear 0.2 0.2
+   	RunEvent BonusHealth 0.4
 
 
 }
 event LowHealth
 {
-	Animate	HealthBG 	    BgColor		"Hurt"				Linear 0.0 0.0
-	Animate	HealthBG 	    Alpha		"150"		       	Linear 0.0 0.2
-   	Animate	HealthBG 	    Alpha		"200"		       	Linear 0.2 0.2
-	RunEvent	LowHealth	0.4
+	Animate	HealthBG 	    BgColor				"Hurt"				Linear 0.0 0.0
+	Animate	HealthBG 	    Alpha				"150"		   	   	Linear 0.0 0.2
+   	Animate	HealthBG 	    Alpha				"200"		   	   	Linear 0.2 0.2
+	RunEvent LowHealth 0.4
 
 }
 Event ClearHealth
 {
-	Animate	HealthBG 	    BgColor		"HealthBG"			Linear 0.0 0.0
+	Animate	HealthBG 	    BgColor				"HealthBG"			Linear 0.0 0.0
 
 }
 event LowAmmo
 {
-	Animate AmmoBG			BgColor	"LowAmmo"	Linear 0.0 0.0
-	Animate AmmoBG			Alpha					"150"		Linear 0.0 0.2
-	Animate AmmoBG			Alpha					"200"		Linear 0.2 0.2
-	RunEvent	LowAmmo		0.4
+	Animate AmmoBG			BgColor				"LowAmmo"		Linear 0.0 0.0
+	Animate AmmoBG			Alpha				"150"			Linear 0.0 0.2
+	Animate AmmoBG			Alpha				"200"			Linear 0.2 0.2
+	RunEvent LowAmmo 0.4
 	
 
 }
 event ClearAmmo
 {
-	Animate AmmoBG			defaultBgColor_override	"AmmoBG"	Linear 0.0 0.0
+	Animate AmmoBG			BgColor				"AmmoBG"		Linear 0.0 0.0
 }

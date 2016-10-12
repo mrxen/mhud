@@ -19,7 +19,7 @@ Scheme
 		
 		"mListBg"					"20 20 20 255"			// Server browser Background
 		
-		"mBorder"					"20 20 20 255"			// Border
+		"mBorder"					"0 0 0 255"				// Border
 		"mBorderBright"				"20 20 20 255"			// Lighter border
 		"mBorderDark"				"20 20 20 255"			// Darker border
 		
@@ -29,13 +29,13 @@ Scheme
 		"mTextSelectBg"				"255 255 255 255"		// Selected text background
 		"mTextDisable"				"255 255 255 153"		// Disabled text
 		
-		"mButtonBg"					"64 160 220 255"		// Button background
+		"mButtonBg"					"40 40 40 255"			// Button background
 		"mButtonFg"					"255 255 255 255"		// Button text
-		"mButtonBgArmed"			"64 160 220 255"		// Button background armed
+		"mButtonBgArmed"			"5 5 5 255"				// Button background armed
 		"mButtonFgArmed"			"255 255 255 255"		// Button text armed
-		"mButtonBgReleased"			"64 160 220 255"		// Button background released
+		"mButtonBgReleased"			"5 5 5 255"				// Button background released
 		"mButtonFgReleased"			"255 255 255 255"		// Button text released
-		"mButtonBgSelected"			"64 160 220 255"		// Button background selected
+		"mButtonBgSelected"			"255 255 255 150"		// Button background selected
 		"mButtonFgSelected"			"255 255 255 255"		// Button text selected
 
 		"mConsoleBg"				"35 35 35 255"			// Console background
@@ -330,6 +330,15 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
+			}
+		}
+		"CodeDefault" [$OSX]
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"weight"	"500"
 			}
